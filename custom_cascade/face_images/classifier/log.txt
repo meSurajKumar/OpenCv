@@ -1,0 +1,6347 @@
+**************************************************
+*************** CREATING SAMPLES *****************
+**************************************************
+Object : C:/Users/CHAUHAN-PC/Desktop/machine_learning/OpenCV/custom_cascade/face_images
+Fixing file names in negative images folder.
+Fixing file names in positive images folder.
+Creating negative list C:/Users/CHAUHAN-PC/Desktop/machine_learning/OpenCV/custom_cascade/face_images/neg.lst
+Creating positive list C:/Users/CHAUHAN-PC/Desktop/machine_learning/OpenCV/custom_cascade/face_images/pos.lst
+Running : opencv_createsamples
+Info file name: C:\Users\CHAUHAN-PC\Desktop\machine_learning\OpenCV\custom_cascade\face_images\pos.lst
+Img file name: (NULL)
+Vec file name: C:\Users\CHAUHAN-PC\Desktop\machine_learning\OpenCV\custom_cascade\face_images\pos_samples.vec
+BG  file name: (NULL)
+Num: 141
+BG color: 0
+BG threshold: 80
+Invert: FALSE
+Max intensity deviation: 40
+Max x angle: 1.1
+Max y angle: 1.1
+Max z angle: 0.5
+Show samples: FALSE
+Width: 36
+Height: 24
+Max Scale: -1
+Create training samples from images collection...
+Done. Created 141 samples
+
+**************************************************
+************* TRAINING CLASSIFIER ****************
+**************************************************
+Running : opencv_traincascade
+PARAMETERS:
+cascadeDirName: C:\Users\CHAUHAN-PC\Desktop\machine_learning\OpenCV\custom_cascade\face_images\classifier
+vecFileName: C:\Users\CHAUHAN-PC\Desktop\machine_learning\OpenCV\custom_cascade\face_images\pos_samples.vec
+bgFileName: C:\Users\CHAUHAN-PC\Desktop\machine_learning\OpenCV\custom_cascade\face_images\neg.lst
+numPos: 141
+numNeg: 146
+numStages: 15
+precalcValBufSize[Mb] : 1024
+precalcIdxBufSize[Mb] : 1024
+
+acceptanceRatioBreakValue : -1
+stageType: BOOST
+featureType: HAAR
+sampleWidth: 36
+sampleHeight: 24
+
+boostType: GAB
+minHitRate: 0.995
+maxFalseAlarmRate: 0.5
+weightTrimRate: 0.95
+maxDepth: 1
+maxWeakCount: 100
+mode: BASIC
+Number of unique features given windowSize [36,24] : 364032
+
+
+===== TRAINING 0-stage =====
+<BEGIN
+
+POS current samples: 1
+POS current samples: 2
+POS current samples: 3
+POS current samples: 4
+POS current samples: 5
+POS current samples: 6
+POS current samples: 7
+POS current samples: 8
+POS current samples: 9
+POS current samples: 10
+POS current samples: 11
+POS current samples: 12
+POS current samples: 13
+POS current samples: 14
+POS current samples: 15
+POS current samples: 16
+POS current samples: 17
+POS current samples: 18
+POS current samples: 19
+POS current samples: 20
+POS current samples: 21
+POS current samples: 22
+POS current samples: 23
+POS current samples: 24
+POS current samples: 25
+POS current samples: 26
+POS current samples: 27
+POS current samples: 28
+POS current samples: 29
+POS current samples: 30
+POS current samples: 31
+POS current samples: 32
+POS current samples: 33
+POS current samples: 34
+POS current samples: 35
+POS current samples: 36
+POS current samples: 37
+POS current samples: 38
+POS current samples: 39
+POS current samples: 40
+POS current samples: 41
+POS current samples: 42
+POS current samples: 43
+POS current samples: 44
+POS current samples: 45
+POS current samples: 46
+POS current samples: 47
+POS current samples: 48
+POS current samples: 49
+POS current samples: 50
+POS current samples: 51
+POS current samples: 52
+POS current samples: 53
+POS current samples: 54
+POS current samples: 55
+POS current samples: 56
+POS current samples: 57
+POS current samples: 58
+POS current samples: 59
+POS current samples: 60
+POS current samples: 61
+POS current samples: 62
+POS current samples: 63
+POS current samples: 64
+POS current samples: 65
+POS current samples: 66
+POS current samples: 67
+POS current samples: 68
+POS current samples: 69
+POS current samples: 70
+POS current samples: 71
+POS current samples: 72
+POS current samples: 73
+POS current samples: 74
+POS current samples: 75
+POS current samples: 76
+POS current samples: 77
+POS current samples: 78
+POS current samples: 79
+POS current samples: 80
+POS current samples: 81
+POS current samples: 82
+POS current samples: 83
+POS current samples: 84
+POS current samples: 85
+POS current samples: 86
+POS current samples: 87
+POS current samples: 88
+POS current samples: 89
+POS current samples: 90
+POS current samples: 91
+POS current samples: 92
+POS current samples: 93
+POS current samples: 94
+POS current samples: 95
+POS current samples: 96
+POS current samples: 97
+POS current samples: 98
+POS current samples: 99
+POS current samples: 100
+POS current samples: 101
+POS current samples: 102
+POS current samples: 103
+POS current samples: 104
+POS current samples: 105
+POS current samples: 106
+POS current samples: 107
+POS current samples: 108
+POS current samples: 109
+POS current samples: 110
+POS current samples: 111
+POS current samples: 112
+POS current samples: 113
+POS current samples: 114
+POS current samples: 115
+POS current samples: 116
+POS current samples: 117
+POS current samples: 118
+POS current samples: 119
+POS current samples: 120
+POS current samples: 121
+POS current samples: 122
+POS current samples: 123
+POS current samples: 124
+POS current samples: 125
+POS current samples: 126
+POS current samples: 127
+POS current samples: 128
+POS current samples: 129
+POS current samples: 130
+POS current samples: 131
+POS current samples: 132
+POS current samples: 133
+POS current samples: 134
+POS current samples: 135
+POS current samples: 136
+POS current samples: 137
+POS current samples: 138
+POS current samples: 139
+POS current samples: 140
+POS current samples: 141
+POS count : consumed   141 : 141
+
+NEG current samples: 1
+NEG current samples: 2
+NEG current samples: 3
+NEG current samples: 4
+NEG current samples: 5
+NEG current samples: 6
+NEG current samples: 7
+NEG current samples: 8
+NEG current samples: 9
+NEG current samples: 10
+NEG current samples: 11
+NEG current samples: 12
+NEG current samples: 13
+NEG current samples: 14
+NEG current samples: 15
+NEG current samples: 16
+NEG current samples: 17
+NEG current samples: 18
+NEG current samples: 19
+NEG current samples: 20
+NEG current samples: 21
+NEG current samples: 22
+NEG current samples: 23
+NEG current samples: 24
+NEG current samples: 25
+NEG current samples: 26
+NEG current samples: 27
+NEG current samples: 28
+NEG current samples: 29
+NEG current samples: 30
+NEG current samples: 31
+NEG current samples: 32
+NEG current samples: 33
+NEG current samples: 34
+NEG current samples: 35
+NEG current samples: 36
+NEG current samples: 37
+NEG current samples: 38
+NEG current samples: 39
+NEG current samples: 40
+NEG current samples: 41
+NEG current samples: 42
+NEG current samples: 43
+NEG current samples: 44
+NEG current samples: 45
+NEG current samples: 46
+NEG current samples: 47
+NEG current samples: 48
+NEG current samples: 49
+NEG current samples: 50
+NEG current samples: 51
+NEG current samples: 52
+NEG current samples: 53
+NEG current samples: 54
+NEG current samples: 55
+NEG current samples: 56
+NEG current samples: 57
+NEG current samples: 58
+NEG current samples: 59
+NEG current samples: 60
+NEG current samples: 61
+NEG current samples: 62
+NEG current samples: 63
+NEG current samples: 64
+NEG current samples: 65
+NEG current samples: 66
+NEG current samples: 67
+NEG current samples: 68
+NEG current samples: 69
+NEG current samples: 70
+NEG current samples: 71
+NEG current samples: 72
+NEG current samples: 73
+NEG current samples: 74
+NEG current samples: 75
+NEG current samples: 76
+NEG current samples: 77
+NEG current samples: 78
+NEG current samples: 79
+NEG current samples: 80
+NEG current samples: 81
+NEG current samples: 82
+NEG current samples: 83
+NEG current samples: 84
+NEG current samples: 85
+NEG current samples: 86
+NEG current samples: 87
+NEG current samples: 88
+NEG current samples: 89
+NEG current samples: 90
+NEG current samples: 91
+NEG current samples: 92
+NEG current samples: 93
+NEG current samples: 94
+NEG current samples: 95
+NEG current samples: 96
+NEG current samples: 97
+NEG current samples: 98
+NEG current samples: 99
+NEG current samples: 100
+NEG current samples: 101
+NEG current samples: 102
+NEG current samples: 103
+NEG current samples: 104
+NEG current samples: 105
+NEG current samples: 106
+NEG current samples: 107
+NEG current samples: 108
+NEG current samples: 109
+NEG current samples: 110
+NEG current samples: 111
+NEG current samples: 112
+NEG current samples: 113
+NEG current samples: 114
+NEG current samples: 115
+NEG current samples: 116
+NEG current samples: 117
+NEG current samples: 118
+NEG current samples: 119
+NEG current samples: 120
+NEG current samples: 121
+NEG current samples: 122
+NEG current samples: 123
+NEG current samples: 124
+NEG current samples: 125
+NEG current samples: 126
+NEG current samples: 127
+NEG current samples: 128
+NEG current samples: 129
+NEG current samples: 130
+NEG current samples: 131
+NEG current samples: 132
+NEG current samples: 133
+NEG current samples: 134
+NEG current samples: 135
+NEG current samples: 136
+NEG current samples: 137
+NEG current samples: 138
+NEG current samples: 139
+NEG current samples: 140
+NEG current samples: 141
+NEG current samples: 142
+NEG current samples: 143
+NEG current samples: 144
+NEG current samples: 145
+NEG current samples: 146
+NEG count : acceptanceRatio    146 : 1
+
+Precalculation time: 2.672
+
++----+---------+---------+
+|  N |    HR   |    FA   |
++----+---------+---------+
+
+|   1|        1|        1|
++----+---------+---------+
+
+|   2|        1|        1|
++----+---------+---------+
+
+|   3|        1|        1|
++----+---------+---------+
+
+|   4|        1|        1|
++----+---------+---------+
+
+|   5|        1| 0.753425|
++----+---------+---------+
+
+|   6|        1| 0.794521|
++----+---------+---------+
+
+|   7|        1| 0.506849|
++----+---------+---------+
+
+|   8|        1| 0.541096|
++----+---------+---------+
+
+|   9|        1| 0.630137|
++----+---------+---------+
+
+|  10|        1| 0.664384|
++----+---------+---------+
+
+|  11|        1| 0.445205|
++----+---------+---------+
+
+END>
+
+Training until now has taken 0 days 0 hours 0 minutes 16 seconds.
+
+
+===== TRAINING 1-stage =====
+<BEGIN
+
+POS current samples: 1
+POS current samples: 2
+POS current samples: 3
+POS current samples: 4
+POS current samples: 5
+POS current samples: 6
+POS current samples: 7
+POS current samples: 8
+POS current samples: 9
+POS current samples: 10
+POS current samples: 11
+POS current samples: 12
+POS current samples: 13
+POS current samples: 14
+POS current samples: 15
+POS current samples: 16
+POS current samples: 17
+POS current samples: 18
+POS current samples: 19
+POS current samples: 20
+POS current samples: 21
+POS current samples: 22
+POS current samples: 23
+POS current samples: 24
+POS current samples: 25
+POS current samples: 26
+POS current samples: 27
+POS current samples: 28
+POS current samples: 29
+POS current samples: 30
+POS current samples: 31
+POS current samples: 32
+POS current samples: 33
+POS current samples: 34
+POS current samples: 35
+POS current samples: 36
+POS current samples: 37
+POS current samples: 38
+POS current samples: 39
+POS current samples: 40
+POS current samples: 41
+POS current samples: 42
+POS current samples: 43
+POS current samples: 44
+POS current samples: 45
+POS current samples: 46
+POS current samples: 47
+POS current samples: 48
+POS current samples: 49
+POS current samples: 50
+POS current samples: 51
+POS current samples: 52
+POS current samples: 53
+POS current samples: 54
+POS current samples: 55
+POS current samples: 56
+POS current samples: 57
+POS current samples: 58
+POS current samples: 59
+POS current samples: 60
+POS current samples: 61
+POS current samples: 62
+POS current samples: 63
+POS current samples: 64
+POS current samples: 65
+POS current samples: 66
+POS current samples: 67
+POS current samples: 68
+POS current samples: 69
+POS current samples: 70
+POS current samples: 71
+POS current samples: 72
+POS current samples: 73
+POS current samples: 74
+POS current samples: 75
+POS current samples: 76
+POS current samples: 77
+POS current samples: 78
+POS current samples: 79
+POS current samples: 80
+POS current samples: 81
+POS current samples: 82
+POS current samples: 83
+POS current samples: 84
+POS current samples: 85
+POS current samples: 86
+POS current samples: 87
+POS current samples: 88
+POS current samples: 89
+POS current samples: 90
+POS current samples: 91
+POS current samples: 92
+POS current samples: 93
+POS current samples: 94
+POS current samples: 95
+POS current samples: 96
+POS current samples: 97
+POS current samples: 98
+POS current samples: 99
+POS current samples: 100
+POS current samples: 101
+POS current samples: 102
+POS current samples: 103
+POS current samples: 104
+POS current samples: 105
+POS current samples: 106
+POS current samples: 107
+POS current samples: 108
+POS current samples: 109
+POS current samples: 110
+POS current samples: 111
+POS current samples: 112
+POS current samples: 113
+POS current samples: 114
+POS current samples: 115
+POS current samples: 116
+POS current samples: 117
+POS current samples: 118
+POS current samples: 119
+POS current samples: 120
+POS current samples: 121
+POS current samples: 122
+POS current samples: 123
+POS current samples: 124
+POS current samples: 125
+POS current samples: 126
+POS current samples: 127
+POS current samples: 128
+POS current samples: 129
+POS current samples: 130
+POS current samples: 131
+POS current samples: 132
+POS current samples: 133
+POS current samples: 134
+POS current samples: 135
+POS current samples: 136
+POS current samples: 137
+POS current samples: 138
+POS current samples: 139
+POS current samples: 140
+POS current samples: 141
+POS count : consumed   141 : 141
+
+NEG current samples: 1
+NEG current samples: 2
+NEG current samples: 3
+NEG current samples: 4
+NEG current samples: 5
+NEG current samples: 6
+NEG current samples: 7
+NEG current samples: 8
+NEG current samples: 9
+NEG current samples: 10
+NEG current samples: 11
+NEG current samples: 12
+NEG current samples: 13
+NEG current samples: 14
+NEG current samples: 15
+NEG current samples: 16
+NEG current samples: 17
+NEG current samples: 18
+NEG current samples: 19
+NEG current samples: 20
+NEG current samples: 21
+NEG current samples: 22
+NEG current samples: 23
+NEG current samples: 24
+NEG current samples: 25
+NEG current samples: 26
+NEG current samples: 27
+NEG current samples: 28
+NEG current samples: 29
+NEG current samples: 30
+NEG current samples: 31
+NEG current samples: 32
+NEG current samples: 33
+NEG current samples: 34
+NEG current samples: 35
+NEG current samples: 36
+NEG current samples: 37
+NEG current samples: 38
+NEG current samples: 39
+NEG current samples: 40
+NEG current samples: 41
+NEG current samples: 42
+NEG current samples: 43
+NEG current samples: 44
+NEG current samples: 45
+NEG current samples: 46
+NEG current samples: 47
+NEG current samples: 48
+NEG current samples: 49
+NEG current samples: 50
+NEG current samples: 51
+NEG current samples: 52
+NEG current samples: 53
+NEG current samples: 54
+NEG current samples: 55
+NEG current samples: 56
+NEG current samples: 57
+NEG current samples: 58
+NEG current samples: 59
+NEG current samples: 60
+NEG current samples: 61
+NEG current samples: 62
+NEG current samples: 63
+NEG current samples: 64
+NEG current samples: 65
+NEG current samples: 66
+NEG current samples: 67
+NEG current samples: 68
+NEG current samples: 69
+NEG current samples: 70
+NEG current samples: 71
+NEG current samples: 72
+NEG current samples: 73
+NEG current samples: 74
+NEG current samples: 75
+NEG current samples: 76
+NEG current samples: 77
+NEG current samples: 78
+NEG current samples: 79
+NEG current samples: 80
+NEG current samples: 81
+NEG current samples: 82
+NEG current samples: 83
+NEG current samples: 84
+NEG current samples: 85
+NEG current samples: 86
+NEG current samples: 87
+NEG current samples: 88
+NEG current samples: 89
+NEG current samples: 90
+NEG current samples: 91
+NEG current samples: 92
+NEG current samples: 93
+NEG current samples: 94
+NEG current samples: 95
+NEG current samples: 96
+NEG current samples: 97
+NEG current samples: 98
+NEG current samples: 99
+NEG current samples: 100
+NEG current samples: 101
+NEG current samples: 102
+NEG current samples: 103
+NEG current samples: 104
+NEG current samples: 105
+NEG current samples: 106
+NEG current samples: 107
+NEG current samples: 108
+NEG current samples: 109
+NEG current samples: 110
+NEG current samples: 111
+NEG current samples: 112
+NEG current samples: 113
+NEG current samples: 114
+NEG current samples: 115
+NEG current samples: 116
+NEG current samples: 117
+NEG current samples: 118
+NEG current samples: 119
+NEG current samples: 120
+NEG current samples: 121
+NEG current samples: 122
+NEG current samples: 123
+NEG current samples: 124
+NEG current samples: 125
+NEG current samples: 126
+NEG current samples: 127
+NEG current samples: 128
+NEG current samples: 129
+NEG current samples: 130
+NEG current samples: 131
+NEG current samples: 132
+NEG current samples: 133
+NEG current samples: 134
+NEG current samples: 135
+NEG current samples: 136
+NEG current samples: 137
+NEG current samples: 138
+NEG current samples: 139
+NEG current samples: 140
+NEG current samples: 141
+NEG current samples: 142
+NEG current samples: 143
+NEG current samples: 144
+NEG current samples: 145
+NEG current samples: 146
+NEG count : acceptanceRatio    146 : 0.616034
+
+Precalculation time: 2.058
+
++----+---------+---------+
+|  N |    HR   |    FA   |
++----+---------+---------+
+
+|   1|        1|        1|
++----+---------+---------+
+
+|   2|        1|        1|
++----+---------+---------+
+
+|   3|        1|        1|
++----+---------+---------+
+
+|   4|        1|        1|
++----+---------+---------+
+
+|   5|        1|        1|
++----+---------+---------+
+
+|   6|        1|        1|
++----+---------+---------+
+
+|   7|        1|        1|
++----+---------+---------+
+
+|   8|        1| 0.972603|
++----+---------+---------+
+
+|   9|        1| 0.979452|
++----+---------+---------+
+
+|  10|        1| 0.938356|
++----+---------+---------+
+
+|  11|        1| 0.938356|
++----+---------+---------+
+
+|  12|        1| 0.808219|
++----+---------+---------+
+
+|  13|        1| 0.849315|
++----+---------+---------+
+
+|  14|        1| 0.869863|
++----+---------+---------+
+
+|  15|        1| 0.691781|
++----+---------+---------+
+
+|  16|        1|  0.59589|
++----+---------+---------+
+
+|  17|        1| 0.630137|
++----+---------+---------+
+
+|  18|        1| 0.554795|
++----+---------+---------+
+
+|  19|        1| 0.568493|
++----+---------+---------+
+
+|  20|        1| 0.472603|
++----+---------+---------+
+
+END>
+
+Training until now has taken 0 days 0 hours 0 minutes 45 seconds.
+
+
+===== TRAINING 2-stage =====
+<BEGIN
+
+POS current samples: 1
+POS current samples: 2
+POS current samples: 3
+POS current samples: 4
+POS current samples: 5
+POS current samples: 6
+POS current samples: 7
+POS current samples: 8
+POS current samples: 9
+POS current samples: 10
+POS current samples: 11
+POS current samples: 12
+POS current samples: 13
+POS current samples: 14
+POS current samples: 15
+POS current samples: 16
+POS current samples: 17
+POS current samples: 18
+POS current samples: 19
+POS current samples: 20
+POS current samples: 21
+POS current samples: 22
+POS current samples: 23
+POS current samples: 24
+POS current samples: 25
+POS current samples: 26
+POS current samples: 27
+POS current samples: 28
+POS current samples: 29
+POS current samples: 30
+POS current samples: 31
+POS current samples: 32
+POS current samples: 33
+POS current samples: 34
+POS current samples: 35
+POS current samples: 36
+POS current samples: 37
+POS current samples: 38
+POS current samples: 39
+POS current samples: 40
+POS current samples: 41
+POS current samples: 42
+POS current samples: 43
+POS current samples: 44
+POS current samples: 45
+POS current samples: 46
+POS current samples: 47
+POS current samples: 48
+POS current samples: 49
+POS current samples: 50
+POS current samples: 51
+POS current samples: 52
+POS current samples: 53
+POS current samples: 54
+POS current samples: 55
+POS current samples: 56
+POS current samples: 57
+POS current samples: 58
+POS current samples: 59
+POS current samples: 60
+POS current samples: 61
+POS current samples: 62
+POS current samples: 63
+POS current samples: 64
+POS current samples: 65
+POS current samples: 66
+POS current samples: 67
+POS current samples: 68
+POS current samples: 69
+POS current samples: 70
+POS current samples: 71
+POS current samples: 72
+POS current samples: 73
+POS current samples: 74
+POS current samples: 75
+POS current samples: 76
+POS current samples: 77
+POS current samples: 78
+POS current samples: 79
+POS current samples: 80
+POS current samples: 81
+POS current samples: 82
+POS current samples: 83
+POS current samples: 84
+POS current samples: 85
+POS current samples: 86
+POS current samples: 87
+POS current samples: 88
+POS current samples: 89
+POS current samples: 90
+POS current samples: 91
+POS current samples: 92
+POS current samples: 93
+POS current samples: 94
+POS current samples: 95
+POS current samples: 96
+POS current samples: 97
+POS current samples: 98
+POS current samples: 99
+POS current samples: 100
+POS current samples: 101
+POS current samples: 102
+POS current samples: 103
+POS current samples: 104
+POS current samples: 105
+POS current samples: 106
+POS current samples: 107
+POS current samples: 108
+POS current samples: 109
+POS current samples: 110
+POS current samples: 111
+POS current samples: 112
+POS current samples: 113
+POS current samples: 114
+POS current samples: 115
+POS current samples: 116
+POS current samples: 117
+POS current samples: 118
+POS current samples: 119
+POS current samples: 120
+POS current samples: 121
+POS current samples: 122
+POS current samples: 123
+POS current samples: 124
+POS current samples: 125
+POS current samples: 126
+POS current samples: 127
+POS current samples: 128
+POS current samples: 129
+POS current samples: 130
+POS current samples: 131
+POS current samples: 132
+POS current samples: 133
+POS current samples: 134
+POS current samples: 135
+POS current samples: 136
+POS current samples: 137
+POS current samples: 138
+POS current samples: 139
+POS current samples: 140
+POS current samples: 141
+POS count : consumed   141 : 141
+
+NEG current samples: 1
+NEG current samples: 2
+NEG current samples: 3
+NEG current samples: 4
+NEG current samples: 5
+NEG current samples: 6
+NEG current samples: 7
+NEG current samples: 8
+NEG current samples: 9
+NEG current samples: 10
+NEG current samples: 11
+NEG current samples: 12
+NEG current samples: 13
+NEG current samples: 14
+NEG current samples: 15
+NEG current samples: 16
+NEG current samples: 17
+NEG current samples: 18
+NEG current samples: 19
+NEG current samples: 20
+NEG current samples: 21
+NEG current samples: 22
+NEG current samples: 23
+NEG current samples: 24
+NEG current samples: 25
+NEG current samples: 26
+NEG current samples: 27
+NEG current samples: 28
+NEG current samples: 29
+NEG current samples: 30
+NEG current samples: 31
+NEG current samples: 32
+NEG current samples: 33
+NEG current samples: 34
+NEG current samples: 35
+NEG current samples: 36
+NEG current samples: 37
+NEG current samples: 38
+NEG current samples: 39
+NEG current samples: 40
+NEG current samples: 41
+NEG current samples: 42
+NEG current samples: 43
+NEG current samples: 44
+NEG current samples: 45
+NEG current samples: 46
+NEG current samples: 47
+NEG current samples: 48
+NEG current samples: 49
+NEG current samples: 50
+NEG current samples: 51
+NEG current samples: 52
+NEG current samples: 53
+NEG current samples: 54
+NEG current samples: 55
+NEG current samples: 56
+NEG current samples: 57
+NEG current samples: 58
+NEG current samples: 59
+NEG current samples: 60
+NEG current samples: 61
+NEG current samples: 62
+NEG current samples: 63
+NEG current samples: 64
+NEG current samples: 65
+NEG current samples: 66
+NEG current samples: 67
+NEG current samples: 68
+NEG current samples: 69
+NEG current samples: 70
+NEG current samples: 71
+NEG current samples: 72
+NEG current samples: 73
+NEG current samples: 74
+NEG current samples: 75
+NEG current samples: 76
+NEG current samples: 77
+NEG current samples: 78
+NEG current samples: 79
+NEG current samples: 80
+NEG current samples: 81
+NEG current samples: 82
+NEG current samples: 83
+NEG current samples: 84
+NEG current samples: 85
+NEG current samples: 86
+NEG current samples: 87
+NEG current samples: 88
+NEG current samples: 89
+NEG current samples: 90
+NEG current samples: 91
+NEG current samples: 92
+NEG current samples: 93
+NEG current samples: 94
+NEG current samples: 95
+NEG current samples: 96
+NEG current samples: 97
+NEG current samples: 98
+NEG current samples: 99
+NEG current samples: 100
+NEG current samples: 101
+NEG current samples: 102
+NEG current samples: 103
+NEG current samples: 104
+NEG current samples: 105
+NEG current samples: 106
+NEG current samples: 107
+NEG current samples: 108
+NEG current samples: 109
+NEG current samples: 110
+NEG current samples: 111
+NEG current samples: 112
+NEG current samples: 113
+NEG current samples: 114
+NEG current samples: 115
+NEG current samples: 116
+NEG current samples: 117
+NEG current samples: 118
+NEG current samples: 119
+NEG current samples: 120
+NEG current samples: 121
+NEG current samples: 122
+NEG current samples: 123
+NEG current samples: 124
+NEG current samples: 125
+NEG current samples: 126
+NEG current samples: 127
+NEG current samples: 128
+NEG current samples: 129
+NEG current samples: 130
+NEG current samples: 131
+NEG current samples: 132
+NEG current samples: 133
+NEG current samples: 134
+NEG current samples: 135
+NEG current samples: 136
+NEG current samples: 137
+NEG current samples: 138
+NEG current samples: 139
+NEG current samples: 140
+NEG current samples: 141
+NEG current samples: 142
+NEG current samples: 143
+NEG current samples: 144
+NEG current samples: 145
+NEG current samples: 146
+NEG count : acceptanceRatio    146 : 0.494915
+
+Precalculation time: 3.057
+
++----+---------+---------+
+|  N |    HR   |    FA   |
++----+---------+---------+
+
+|   1|        1|        1|
++----+---------+---------+
+
+|   2|        1|        1|
++----+---------+---------+
+
+|   3|        1|        1|
++----+---------+---------+
+
+|   4|        1| 0.821918|
++----+---------+---------+
+
+|   5|        1| 0.534247|
++----+---------+---------+
+
+|   6|        1| 0.547945|
++----+---------+---------+
+
+|   7|        1| 0.410959|
++----+---------+---------+
+
+END>
+
+Training until now has taken 0 days 0 hours 0 minutes 57 seconds.
+
+
+===== TRAINING 3-stage =====
+<BEGIN
+
+POS current samples: 1
+POS current samples: 2
+POS current samples: 3
+POS current samples: 4
+POS current samples: 5
+POS current samples: 6
+POS current samples: 7
+POS current samples: 8
+POS current samples: 9
+POS current samples: 10
+POS current samples: 11
+POS current samples: 12
+POS current samples: 13
+POS current samples: 14
+POS current samples: 15
+POS current samples: 16
+POS current samples: 17
+POS current samples: 18
+POS current samples: 19
+POS current samples: 20
+POS current samples: 21
+POS current samples: 22
+POS current samples: 23
+POS current samples: 24
+POS current samples: 25
+POS current samples: 26
+POS current samples: 27
+POS current samples: 28
+POS current samples: 29
+POS current samples: 30
+POS current samples: 31
+POS current samples: 32
+POS current samples: 33
+POS current samples: 34
+POS current samples: 35
+POS current samples: 36
+POS current samples: 37
+POS current samples: 38
+POS current samples: 39
+POS current samples: 40
+POS current samples: 41
+POS current samples: 42
+POS current samples: 43
+POS current samples: 44
+POS current samples: 45
+POS current samples: 46
+POS current samples: 47
+POS current samples: 48
+POS current samples: 49
+POS current samples: 50
+POS current samples: 51
+POS current samples: 52
+POS current samples: 53
+POS current samples: 54
+POS current samples: 55
+POS current samples: 56
+POS current samples: 57
+POS current samples: 58
+POS current samples: 59
+POS current samples: 60
+POS current samples: 61
+POS current samples: 62
+POS current samples: 63
+POS current samples: 64
+POS current samples: 65
+POS current samples: 66
+POS current samples: 67
+POS current samples: 68
+POS current samples: 69
+POS current samples: 70
+POS current samples: 71
+POS current samples: 72
+POS current samples: 73
+POS current samples: 74
+POS current samples: 75
+POS current samples: 76
+POS current samples: 77
+POS current samples: 78
+POS current samples: 79
+POS current samples: 80
+POS current samples: 81
+POS current samples: 82
+POS current samples: 83
+POS current samples: 84
+POS current samples: 85
+POS current samples: 86
+POS current samples: 87
+POS current samples: 88
+POS current samples: 89
+POS current samples: 90
+POS current samples: 91
+POS current samples: 92
+POS current samples: 93
+POS current samples: 94
+POS current samples: 95
+POS current samples: 96
+POS current samples: 97
+POS current samples: 98
+POS current samples: 99
+POS current samples: 100
+POS current samples: 101
+POS current samples: 102
+POS current samples: 103
+POS current samples: 104
+POS current samples: 105
+POS current samples: 106
+POS current samples: 107
+POS current samples: 108
+POS current samples: 109
+POS current samples: 110
+POS current samples: 111
+POS current samples: 112
+POS current samples: 113
+POS current samples: 114
+POS current samples: 115
+POS current samples: 116
+POS current samples: 117
+POS current samples: 118
+POS current samples: 119
+POS current samples: 120
+POS current samples: 121
+POS current samples: 122
+POS current samples: 123
+POS current samples: 124
+POS current samples: 125
+POS current samples: 126
+POS current samples: 127
+POS current samples: 128
+POS current samples: 129
+POS current samples: 130
+POS current samples: 131
+POS current samples: 132
+POS current samples: 133
+POS current samples: 134
+POS current samples: 135
+POS current samples: 136
+POS current samples: 137
+POS current samples: 138
+POS current samples: 139
+POS current samples: 140
+POS current samples: 141
+POS count : consumed   141 : 141
+
+NEG current samples: 1
+NEG current samples: 2
+NEG current samples: 3
+NEG current samples: 4
+NEG current samples: 5
+NEG current samples: 6
+NEG current samples: 7
+NEG current samples: 8
+NEG current samples: 9
+NEG current samples: 10
+NEG current samples: 11
+NEG current samples: 12
+NEG current samples: 13
+NEG current samples: 14
+NEG current samples: 15
+NEG current samples: 16
+NEG current samples: 17
+NEG current samples: 18
+NEG current samples: 19
+NEG current samples: 20
+NEG current samples: 21
+NEG current samples: 22
+NEG current samples: 23
+NEG current samples: 24
+NEG current samples: 25
+NEG current samples: 26
+NEG current samples: 27
+NEG current samples: 28
+NEG current samples: 29
+NEG current samples: 30
+NEG current samples: 31
+NEG current samples: 32
+NEG current samples: 33
+NEG current samples: 34
+NEG current samples: 35
+NEG current samples: 36
+NEG current samples: 37
+NEG current samples: 38
+NEG current samples: 39
+NEG current samples: 40
+NEG current samples: 41
+NEG current samples: 42
+NEG current samples: 43
+NEG current samples: 44
+NEG current samples: 45
+NEG current samples: 46
+NEG current samples: 47
+NEG current samples: 48
+NEG current samples: 49
+NEG current samples: 50
+NEG current samples: 51
+NEG current samples: 52
+NEG current samples: 53
+NEG current samples: 54
+NEG current samples: 55
+NEG current samples: 56
+NEG current samples: 57
+NEG current samples: 58
+NEG current samples: 59
+NEG current samples: 60
+NEG current samples: 61
+NEG current samples: 62
+NEG current samples: 63
+NEG current samples: 64
+NEG current samples: 65
+NEG current samples: 66
+NEG current samples: 67
+NEG current samples: 68
+NEG current samples: 69
+NEG current samples: 70
+NEG current samples: 71
+NEG current samples: 72
+NEG current samples: 73
+NEG current samples: 74
+NEG current samples: 75
+NEG current samples: 76
+NEG current samples: 77
+NEG current samples: 78
+NEG current samples: 79
+NEG current samples: 80
+NEG current samples: 81
+NEG current samples: 82
+NEG current samples: 83
+NEG current samples: 84
+NEG current samples: 85
+NEG current samples: 86
+NEG current samples: 87
+NEG current samples: 88
+NEG current samples: 89
+NEG current samples: 90
+NEG current samples: 91
+NEG current samples: 92
+NEG current samples: 93
+NEG current samples: 94
+NEG current samples: 95
+NEG current samples: 96
+NEG current samples: 97
+NEG current samples: 98
+NEG current samples: 99
+NEG current samples: 100
+NEG current samples: 101
+NEG current samples: 102
+NEG current samples: 103
+NEG current samples: 104
+NEG current samples: 105
+NEG current samples: 106
+NEG current samples: 107
+NEG current samples: 108
+NEG current samples: 109
+NEG current samples: 110
+NEG current samples: 111
+NEG current samples: 112
+NEG current samples: 113
+NEG current samples: 114
+NEG current samples: 115
+NEG current samples: 116
+NEG current samples: 117
+NEG current samples: 118
+NEG current samples: 119
+NEG current samples: 120
+NEG current samples: 121
+NEG current samples: 122
+NEG current samples: 123
+NEG current samples: 124
+NEG current samples: 125
+NEG current samples: 126
+NEG current samples: 127
+NEG current samples: 128
+NEG current samples: 129
+NEG current samples: 130
+NEG current samples: 131
+NEG current samples: 132
+NEG current samples: 133
+NEG current samples: 134
+NEG current samples: 135
+NEG current samples: 136
+NEG current samples: 137
+NEG current samples: 138
+NEG current samples: 139
+NEG current samples: 140
+NEG current samples: 141
+NEG current samples: 142
+NEG current samples: 143
+NEG current samples: 144
+NEG current samples: 145
+NEG current samples: 146
+NEG count : acceptanceRatio    146 : 0.244147
+
+Precalculation time: 3.745
+
++----+---------+---------+
+|  N |    HR   |    FA   |
++----+---------+---------+
+
+|   1|        1|        1|
++----+---------+---------+
+
+|   2|        1|        1|
++----+---------+---------+
+
+|   3|        1|        1|
++----+---------+---------+
+
+|   4|        1| 0.835616|
++----+---------+---------+
+
+|   5|        1| 0.616438|
++----+---------+---------+
+
+|   6|        1| 0.643836|
++----+---------+---------+
+
+|   7|        1|  0.69863|
++----+---------+---------+
+
+|   8|        1| 0.287671|
++----+---------+---------+
+
+END>
+
+Training until now has taken 0 days 0 hours 1 minutes 13 seconds.
+
+
+===== TRAINING 4-stage =====
+<BEGIN
+
+POS current samples: 1
+POS current samples: 2
+POS current samples: 3
+POS current samples: 4
+POS current samples: 5
+POS current samples: 6
+POS current samples: 7
+POS current samples: 8
+POS current samples: 9
+POS current samples: 10
+POS current samples: 11
+POS current samples: 12
+POS current samples: 13
+POS current samples: 14
+POS current samples: 15
+POS current samples: 16
+POS current samples: 17
+POS current samples: 18
+POS current samples: 19
+POS current samples: 20
+POS current samples: 21
+POS current samples: 22
+POS current samples: 23
+POS current samples: 24
+POS current samples: 25
+POS current samples: 26
+POS current samples: 27
+POS current samples: 28
+POS current samples: 29
+POS current samples: 30
+POS current samples: 31
+POS current samples: 32
+POS current samples: 33
+POS current samples: 34
+POS current samples: 35
+POS current samples: 36
+POS current samples: 37
+POS current samples: 38
+POS current samples: 39
+POS current samples: 40
+POS current samples: 41
+POS current samples: 42
+POS current samples: 43
+POS current samples: 44
+POS current samples: 45
+POS current samples: 46
+POS current samples: 47
+POS current samples: 48
+POS current samples: 49
+POS current samples: 50
+POS current samples: 51
+POS current samples: 52
+POS current samples: 53
+POS current samples: 54
+POS current samples: 55
+POS current samples: 56
+POS current samples: 57
+POS current samples: 58
+POS current samples: 59
+POS current samples: 60
+POS current samples: 61
+POS current samples: 62
+POS current samples: 63
+POS current samples: 64
+POS current samples: 65
+POS current samples: 66
+POS current samples: 67
+POS current samples: 68
+POS current samples: 69
+POS current samples: 70
+POS current samples: 71
+POS current samples: 72
+POS current samples: 73
+POS current samples: 74
+POS current samples: 75
+POS current samples: 76
+POS current samples: 77
+POS current samples: 78
+POS current samples: 79
+POS current samples: 80
+POS current samples: 81
+POS current samples: 82
+POS current samples: 83
+POS current samples: 84
+POS current samples: 85
+POS current samples: 86
+POS current samples: 87
+POS current samples: 88
+POS current samples: 89
+POS current samples: 90
+POS current samples: 91
+POS current samples: 92
+POS current samples: 93
+POS current samples: 94
+POS current samples: 95
+POS current samples: 96
+POS current samples: 97
+POS current samples: 98
+POS current samples: 99
+POS current samples: 100
+POS current samples: 101
+POS current samples: 102
+POS current samples: 103
+POS current samples: 104
+POS current samples: 105
+POS current samples: 106
+POS current samples: 107
+POS current samples: 108
+POS current samples: 109
+POS current samples: 110
+POS current samples: 111
+POS current samples: 112
+POS current samples: 113
+POS current samples: 114
+POS current samples: 115
+POS current samples: 116
+POS current samples: 117
+POS current samples: 118
+POS current samples: 119
+POS current samples: 120
+POS current samples: 121
+POS current samples: 122
+POS current samples: 123
+POS current samples: 124
+POS current samples: 125
+POS current samples: 126
+POS current samples: 127
+POS current samples: 128
+POS current samples: 129
+POS current samples: 130
+POS current samples: 131
+POS current samples: 132
+POS current samples: 133
+POS current samples: 134
+POS current samples: 135
+POS current samples: 136
+POS current samples: 137
+POS current samples: 138
+POS current samples: 139
+POS current samples: 140
+POS current samples: 141
+POS count : consumed   141 : 141
+
+NEG current samples: 1
+NEG current samples: 2
+NEG current samples: 3
+NEG current samples: 4
+NEG current samples: 5
+NEG current samples: 6
+NEG current samples: 7
+NEG current samples: 8
+NEG current samples: 9
+NEG current samples: 10
+NEG current samples: 11
+NEG current samples: 12
+NEG current samples: 13
+NEG current samples: 14
+NEG current samples: 15
+NEG current samples: 16
+NEG current samples: 17
+NEG current samples: 18
+NEG current samples: 19
+NEG current samples: 20
+NEG current samples: 21
+NEG current samples: 22
+NEG current samples: 23
+NEG current samples: 24
+NEG current samples: 25
+NEG current samples: 26
+NEG current samples: 27
+NEG current samples: 28
+NEG current samples: 29
+NEG current samples: 30
+NEG current samples: 31
+NEG current samples: 32
+NEG current samples: 33
+NEG current samples: 34
+NEG current samples: 35
+NEG current samples: 36
+NEG current samples: 37
+NEG current samples: 38
+NEG current samples: 39
+NEG current samples: 40
+NEG current samples: 41
+NEG current samples: 42
+NEG current samples: 43
+NEG current samples: 44
+NEG current samples: 45
+NEG current samples: 46
+NEG current samples: 47
+NEG current samples: 48
+NEG current samples: 49
+NEG current samples: 50
+NEG current samples: 51
+NEG current samples: 52
+NEG current samples: 53
+NEG current samples: 54
+NEG current samples: 55
+NEG current samples: 56
+NEG current samples: 57
+NEG current samples: 58
+NEG current samples: 59
+NEG current samples: 60
+NEG current samples: 61
+NEG current samples: 62
+NEG current samples: 63
+NEG current samples: 64
+NEG current samples: 65
+NEG current samples: 66
+NEG current samples: 67
+NEG current samples: 68
+NEG current samples: 69
+NEG current samples: 70
+NEG current samples: 71
+NEG current samples: 72
+NEG current samples: 73
+NEG current samples: 74
+NEG current samples: 75
+NEG current samples: 76
+NEG current samples: 77
+NEG current samples: 78
+NEG current samples: 79
+NEG current samples: 80
+NEG current samples: 81
+NEG current samples: 82
+NEG current samples: 83
+NEG current samples: 84
+NEG current samples: 85
+NEG current samples: 86
+NEG current samples: 87
+NEG current samples: 88
+NEG current samples: 89
+NEG current samples: 90
+NEG current samples: 91
+NEG current samples: 92
+NEG current samples: 93
+NEG current samples: 94
+NEG current samples: 95
+NEG current samples: 96
+NEG current samples: 97
+NEG current samples: 98
+NEG current samples: 99
+NEG current samples: 100
+NEG current samples: 101
+NEG current samples: 102
+NEG current samples: 103
+NEG current samples: 104
+NEG current samples: 105
+NEG current samples: 106
+NEG current samples: 107
+NEG current samples: 108
+NEG current samples: 109
+NEG current samples: 110
+NEG current samples: 111
+NEG current samples: 112
+NEG current samples: 113
+NEG current samples: 114
+NEG current samples: 115
+NEG current samples: 116
+NEG current samples: 117
+NEG current samples: 118
+NEG current samples: 119
+NEG current samples: 120
+NEG current samples: 121
+NEG current samples: 122
+NEG current samples: 123
+NEG current samples: 124
+NEG current samples: 125
+NEG current samples: 126
+NEG current samples: 127
+NEG current samples: 128
+NEG current samples: 129
+NEG current samples: 130
+NEG current samples: 131
+NEG current samples: 132
+NEG current samples: 133
+NEG current samples: 134
+NEG current samples: 135
+NEG current samples: 136
+NEG current samples: 137
+NEG current samples: 138
+NEG current samples: 139
+NEG current samples: 140
+NEG current samples: 141
+NEG current samples: 142
+NEG current samples: 143
+NEG current samples: 144
+NEG current samples: 145
+NEG current samples: 146
+NEG count : acceptanceRatio    146 : 0.145563
+
+Precalculation time: 3.187
+
++----+---------+---------+
+|  N |    HR   |    FA   |
++----+---------+---------+
+
+|   1|        1|        1|
++----+---------+---------+
+
+|   2|        1|        1|
++----+---------+---------+
+
+|   3|        1|        1|
++----+---------+---------+
+
+|   4|        1| 0.643836|
++----+---------+---------+
+
+|   5|        1| 0.643836|
++----+---------+---------+
+
+|   6|        1| 0.643836|
++----+---------+---------+
+
+|   7|        1| 0.452055|
++----+---------+---------+
+
+END>
+
+Training until now has taken 0 days 0 hours 1 minutes 26 seconds.
+
+
+===== TRAINING 5-stage =====
+<BEGIN
+
+POS current samples: 1
+POS current samples: 2
+POS current samples: 3
+POS current samples: 4
+POS current samples: 5
+POS current samples: 6
+POS current samples: 7
+POS current samples: 8
+POS current samples: 9
+POS current samples: 10
+POS current samples: 11
+POS current samples: 12
+POS current samples: 13
+POS current samples: 14
+POS current samples: 15
+POS current samples: 16
+POS current samples: 17
+POS current samples: 18
+POS current samples: 19
+POS current samples: 20
+POS current samples: 21
+POS current samples: 22
+POS current samples: 23
+POS current samples: 24
+POS current samples: 25
+POS current samples: 26
+POS current samples: 27
+POS current samples: 28
+POS current samples: 29
+POS current samples: 30
+POS current samples: 31
+POS current samples: 32
+POS current samples: 33
+POS current samples: 34
+POS current samples: 35
+POS current samples: 36
+POS current samples: 37
+POS current samples: 38
+POS current samples: 39
+POS current samples: 40
+POS current samples: 41
+POS current samples: 42
+POS current samples: 43
+POS current samples: 44
+POS current samples: 45
+POS current samples: 46
+POS current samples: 47
+POS current samples: 48
+POS current samples: 49
+POS current samples: 50
+POS current samples: 51
+POS current samples: 52
+POS current samples: 53
+POS current samples: 54
+POS current samples: 55
+POS current samples: 56
+POS current samples: 57
+POS current samples: 58
+POS current samples: 59
+POS current samples: 60
+POS current samples: 61
+POS current samples: 62
+POS current samples: 63
+POS current samples: 64
+POS current samples: 65
+POS current samples: 66
+POS current samples: 67
+POS current samples: 68
+POS current samples: 69
+POS current samples: 70
+POS current samples: 71
+POS current samples: 72
+POS current samples: 73
+POS current samples: 74
+POS current samples: 75
+POS current samples: 76
+POS current samples: 77
+POS current samples: 78
+POS current samples: 79
+POS current samples: 80
+POS current samples: 81
+POS current samples: 82
+POS current samples: 83
+POS current samples: 84
+POS current samples: 85
+POS current samples: 86
+POS current samples: 87
+POS current samples: 88
+POS current samples: 89
+POS current samples: 90
+POS current samples: 91
+POS current samples: 92
+POS current samples: 93
+POS current samples: 94
+POS current samples: 95
+POS current samples: 96
+POS current samples: 97
+POS current samples: 98
+POS current samples: 99
+POS current samples: 100
+POS current samples: 101
+POS current samples: 102
+POS current samples: 103
+POS current samples: 104
+POS current samples: 105
+POS current samples: 106
+POS current samples: 107
+POS current samples: 108
+POS current samples: 109
+POS current samples: 110
+POS current samples: 111
+POS current samples: 112
+POS current samples: 113
+POS current samples: 114
+POS current samples: 115
+POS current samples: 116
+POS current samples: 117
+POS current samples: 118
+POS current samples: 119
+POS current samples: 120
+POS current samples: 121
+POS current samples: 122
+POS current samples: 123
+POS current samples: 124
+POS current samples: 125
+POS current samples: 126
+POS current samples: 127
+POS current samples: 128
+POS current samples: 129
+POS current samples: 130
+POS current samples: 131
+POS current samples: 132
+POS current samples: 133
+POS current samples: 134
+POS current samples: 135
+POS current samples: 136
+POS current samples: 137
+POS current samples: 138
+POS current samples: 139
+POS current samples: 140
+POS current samples: 141
+POS count : consumed   141 : 141
+
+NEG current samples: 1
+NEG current samples: 2
+NEG current samples: 3
+NEG current samples: 4
+NEG current samples: 5
+NEG current samples: 6
+NEG current samples: 7
+NEG current samples: 8
+NEG current samples: 9
+NEG current samples: 10
+NEG current samples: 11
+NEG current samples: 12
+NEG current samples: 13
+NEG current samples: 14
+NEG current samples: 15
+NEG current samples: 16
+NEG current samples: 17
+NEG current samples: 18
+NEG current samples: 19
+NEG current samples: 20
+NEG current samples: 21
+NEG current samples: 22
+NEG current samples: 23
+NEG current samples: 24
+NEG current samples: 25
+NEG current samples: 26
+NEG current samples: 27
+NEG current samples: 28
+NEG current samples: 29
+NEG current samples: 30
+NEG current samples: 31
+NEG current samples: 32
+NEG current samples: 33
+NEG current samples: 34
+NEG current samples: 35
+NEG current samples: 36
+NEG current samples: 37
+NEG current samples: 38
+NEG current samples: 39
+NEG current samples: 40
+NEG current samples: 41
+NEG current samples: 42
+NEG current samples: 43
+NEG current samples: 44
+NEG current samples: 45
+NEG current samples: 46
+NEG current samples: 47
+NEG current samples: 48
+NEG current samples: 49
+NEG current samples: 50
+NEG current samples: 51
+NEG current samples: 52
+NEG current samples: 53
+NEG current samples: 54
+NEG current samples: 55
+NEG current samples: 56
+NEG current samples: 57
+NEG current samples: 58
+NEG current samples: 59
+NEG current samples: 60
+NEG current samples: 61
+NEG current samples: 62
+NEG current samples: 63
+NEG current samples: 64
+NEG current samples: 65
+NEG current samples: 66
+NEG current samples: 67
+NEG current samples: 68
+NEG current samples: 69
+NEG current samples: 70
+NEG current samples: 71
+NEG current samples: 72
+NEG current samples: 73
+NEG current samples: 74
+NEG current samples: 75
+NEG current samples: 76
+NEG current samples: 77
+NEG current samples: 78
+NEG current samples: 79
+NEG current samples: 80
+NEG current samples: 81
+NEG current samples: 82
+NEG current samples: 83
+NEG current samples: 84
+NEG current samples: 85
+NEG current samples: 86
+NEG current samples: 87
+NEG current samples: 88
+NEG current samples: 89
+NEG current samples: 90
+NEG current samples: 91
+NEG current samples: 92
+NEG current samples: 93
+NEG current samples: 94
+NEG current samples: 95
+NEG current samples: 96
+NEG current samples: 97
+NEG current samples: 98
+NEG current samples: 99
+NEG current samples: 100
+NEG current samples: 101
+NEG current samples: 102
+NEG current samples: 103
+NEG current samples: 104
+NEG current samples: 105
+NEG current samples: 106
+NEG current samples: 107
+NEG current samples: 108
+NEG current samples: 109
+NEG current samples: 110
+NEG current samples: 111
+NEG current samples: 112
+NEG current samples: 113
+NEG current samples: 114
+NEG current samples: 115
+NEG current samples: 116
+NEG current samples: 117
+NEG current samples: 118
+NEG current samples: 119
+NEG current samples: 120
+NEG current samples: 121
+NEG current samples: 122
+NEG current samples: 123
+NEG current samples: 124
+NEG current samples: 125
+NEG current samples: 126
+NEG current samples: 127
+NEG current samples: 128
+NEG current samples: 129
+NEG current samples: 130
+NEG current samples: 131
+NEG current samples: 132
+NEG current samples: 133
+NEG current samples: 134
+NEG current samples: 135
+NEG current samples: 136
+NEG current samples: 137
+NEG current samples: 138
+NEG current samples: 139
+NEG current samples: 140
+NEG current samples: 141
+NEG current samples: 142
+NEG current samples: 143
+NEG current samples: 144
+NEG current samples: 145
+NEG current samples: 146
+NEG count : acceptanceRatio    146 : 0.124573
+
+Precalculation time: 3.11
+
++----+---------+---------+
+|  N |    HR   |    FA   |
++----+---------+---------+
+
+|   1|        1|        1|
++----+---------+---------+
+
+|   2|        1|        1|
++----+---------+---------+
+
+|   3|        1|        1|
++----+---------+---------+
+
+|   4|        1|        1|
++----+---------+---------+
+
+|   5|        1|        1|
++----+---------+---------+
+
+|   6|        1|        1|
++----+---------+---------+
+
+|   7|        1| 0.869863|
++----+---------+---------+
+
+|   8|        1| 0.910959|
++----+---------+---------+
+
+|   9|        1| 0.924658|
++----+---------+---------+
+
+|  10|        1| 0.794521|
++----+---------+---------+
+
+|  11|        1| 0.582192|
++----+---------+---------+
+
+|  12|        1| 0.609589|
++----+---------+---------+
+
+|  13|        1| 0.465753|
++----+---------+---------+
+
+END>
+
+Training until now has taken 0 days 0 hours 1 minutes 49 seconds.
+
+
+===== TRAINING 6-stage =====
+<BEGIN
+
+POS current samples: 1
+POS current samples: 2
+POS current samples: 3
+POS current samples: 4
+POS current samples: 5
+POS current samples: 6
+POS current samples: 7
+POS current samples: 8
+POS current samples: 9
+POS current samples: 10
+POS current samples: 11
+POS current samples: 12
+POS current samples: 13
+POS current samples: 14
+POS current samples: 15
+POS current samples: 16
+POS current samples: 17
+POS current samples: 18
+POS current samples: 19
+POS current samples: 20
+POS current samples: 21
+POS current samples: 22
+POS current samples: 23
+POS current samples: 24
+POS current samples: 25
+POS current samples: 26
+POS current samples: 27
+POS current samples: 28
+POS current samples: 29
+POS current samples: 30
+POS current samples: 31
+POS current samples: 32
+POS current samples: 33
+POS current samples: 34
+POS current samples: 35
+POS current samples: 36
+POS current samples: 37
+POS current samples: 38
+POS current samples: 39
+POS current samples: 40
+POS current samples: 41
+POS current samples: 42
+POS current samples: 43
+POS current samples: 44
+POS current samples: 45
+POS current samples: 46
+POS current samples: 47
+POS current samples: 48
+POS current samples: 49
+POS current samples: 50
+POS current samples: 51
+POS current samples: 52
+POS current samples: 53
+POS current samples: 54
+POS current samples: 55
+POS current samples: 56
+POS current samples: 57
+POS current samples: 58
+POS current samples: 59
+POS current samples: 60
+POS current samples: 61
+POS current samples: 62
+POS current samples: 63
+POS current samples: 64
+POS current samples: 65
+POS current samples: 66
+POS current samples: 67
+POS current samples: 68
+POS current samples: 69
+POS current samples: 70
+POS current samples: 71
+POS current samples: 72
+POS current samples: 73
+POS current samples: 74
+POS current samples: 75
+POS current samples: 76
+POS current samples: 77
+POS current samples: 78
+POS current samples: 79
+POS current samples: 80
+POS current samples: 81
+POS current samples: 82
+POS current samples: 83
+POS current samples: 84
+POS current samples: 85
+POS current samples: 86
+POS current samples: 87
+POS current samples: 88
+POS current samples: 89
+POS current samples: 90
+POS current samples: 91
+POS current samples: 92
+POS current samples: 93
+POS current samples: 94
+POS current samples: 95
+POS current samples: 96
+POS current samples: 97
+POS current samples: 98
+POS current samples: 99
+POS current samples: 100
+POS current samples: 101
+POS current samples: 102
+POS current samples: 103
+POS current samples: 104
+POS current samples: 105
+POS current samples: 106
+POS current samples: 107
+POS current samples: 108
+POS current samples: 109
+POS current samples: 110
+POS current samples: 111
+POS current samples: 112
+POS current samples: 113
+POS current samples: 114
+POS current samples: 115
+POS current samples: 116
+POS current samples: 117
+POS current samples: 118
+POS current samples: 119
+POS current samples: 120
+POS current samples: 121
+POS current samples: 122
+POS current samples: 123
+POS current samples: 124
+POS current samples: 125
+POS current samples: 126
+POS current samples: 127
+POS current samples: 128
+POS current samples: 129
+POS current samples: 130
+POS current samples: 131
+POS current samples: 132
+POS current samples: 133
+POS current samples: 134
+POS current samples: 135
+POS current samples: 136
+POS current samples: 137
+POS current samples: 138
+POS current samples: 139
+POS current samples: 140
+POS current samples: 141
+POS count : consumed   141 : 141
+
+NEG current samples: 1
+NEG current samples: 2
+NEG current samples: 3
+NEG current samples: 4
+NEG current samples: 5
+NEG current samples: 6
+NEG current samples: 7
+NEG current samples: 8
+NEG current samples: 9
+NEG current samples: 10
+NEG current samples: 11
+NEG current samples: 12
+NEG current samples: 13
+NEG current samples: 14
+NEG current samples: 15
+NEG current samples: 16
+NEG current samples: 17
+NEG current samples: 18
+NEG current samples: 19
+NEG current samples: 20
+NEG current samples: 21
+NEG current samples: 22
+NEG current samples: 23
+NEG current samples: 24
+NEG current samples: 25
+NEG current samples: 26
+NEG current samples: 27
+NEG current samples: 28
+NEG current samples: 29
+NEG current samples: 30
+NEG current samples: 31
+NEG current samples: 32
+NEG current samples: 33
+NEG current samples: 34
+NEG current samples: 35
+NEG current samples: 36
+NEG current samples: 37
+NEG current samples: 38
+NEG current samples: 39
+NEG current samples: 40
+NEG current samples: 41
+NEG current samples: 42
+NEG current samples: 43
+NEG current samples: 44
+NEG current samples: 45
+NEG current samples: 46
+NEG current samples: 47
+NEG current samples: 48
+NEG current samples: 49
+NEG current samples: 50
+NEG current samples: 51
+NEG current samples: 52
+NEG current samples: 53
+NEG current samples: 54
+NEG current samples: 55
+NEG current samples: 56
+NEG current samples: 57
+NEG current samples: 58
+NEG current samples: 59
+NEG current samples: 60
+NEG current samples: 61
+NEG current samples: 62
+NEG current samples: 63
+NEG current samples: 64
+NEG current samples: 65
+NEG current samples: 66
+NEG current samples: 67
+NEG current samples: 68
+NEG current samples: 69
+NEG current samples: 70
+NEG current samples: 71
+NEG current samples: 72
+NEG current samples: 73
+NEG current samples: 74
+NEG current samples: 75
+NEG current samples: 76
+NEG current samples: 77
+NEG current samples: 78
+NEG current samples: 79
+NEG current samples: 80
+NEG current samples: 81
+NEG current samples: 82
+NEG current samples: 83
+NEG current samples: 84
+NEG current samples: 85
+NEG current samples: 86
+NEG current samples: 87
+NEG current samples: 88
+NEG current samples: 89
+NEG current samples: 90
+NEG current samples: 91
+NEG current samples: 92
+NEG current samples: 93
+NEG current samples: 94
+NEG current samples: 95
+NEG current samples: 96
+NEG current samples: 97
+NEG current samples: 98
+NEG current samples: 99
+NEG current samples: 100
+NEG current samples: 101
+NEG current samples: 102
+NEG current samples: 103
+NEG current samples: 104
+NEG current samples: 105
+NEG current samples: 106
+NEG current samples: 107
+NEG current samples: 108
+NEG current samples: 109
+NEG current samples: 110
+NEG current samples: 111
+NEG current samples: 112
+NEG current samples: 113
+NEG current samples: 114
+NEG current samples: 115
+NEG current samples: 116
+NEG current samples: 117
+NEG current samples: 118
+NEG current samples: 119
+NEG current samples: 120
+NEG current samples: 121
+NEG current samples: 122
+NEG current samples: 123
+NEG current samples: 124
+NEG current samples: 125
+NEG current samples: 126
+NEG current samples: 127
+NEG current samples: 128
+NEG current samples: 129
+NEG current samples: 130
+NEG current samples: 131
+NEG current samples: 132
+NEG current samples: 133
+NEG current samples: 134
+NEG current samples: 135
+NEG current samples: 136
+NEG current samples: 137
+NEG current samples: 138
+NEG current samples: 139
+NEG current samples: 140
+NEG current samples: 141
+NEG current samples: 142
+NEG current samples: 143
+NEG current samples: 144
+NEG current samples: 145
+NEG current samples: 146
+NEG count : acceptanceRatio    146 : 0.113003
+
+Precalculation time: 3.084
+
++----+---------+---------+
+|  N |    HR   |    FA   |
++----+---------+---------+
+
+|   1|        1|        1|
++----+---------+---------+
+
+|   2|        1|        1|
++----+---------+---------+
+
+|   3|        1|        1|
++----+---------+---------+
+
+|   4|        1|        1|
++----+---------+---------+
+
+|   5|        1|        1|
++----+---------+---------+
+
+|   6|        1|        1|
++----+---------+---------+
+
+|   7|        1| 0.856164|
++----+---------+---------+
+
+|   8|        1| 0.883562|
++----+---------+---------+
+
+|   9|        1| 0.924658|
++----+---------+---------+
+
+|  10|        1| 0.931507|
++----+---------+---------+
+
+|  11|        1| 0.945205|
++----+---------+---------+
+
+|  12|        1| 0.753425|
++----+---------+---------+
+
+|  13|        1| 0.541096|
++----+---------+---------+
+
+|  14|        1| 0.589041|
++----+---------+---------+
+
+|  15|        1| 0.458904|
++----+---------+---------+
+
+END>
+
+Training until now has taken 0 days 0 hours 2 minutes 14 seconds.
+
+
+===== TRAINING 7-stage =====
+<BEGIN
+
+POS current samples: 1
+POS current samples: 2
+POS current samples: 3
+POS current samples: 4
+POS current samples: 5
+POS current samples: 6
+POS current samples: 7
+POS current samples: 8
+POS current samples: 9
+POS current samples: 10
+POS current samples: 11
+POS current samples: 12
+POS current samples: 13
+POS current samples: 14
+POS current samples: 15
+POS current samples: 16
+POS current samples: 17
+POS current samples: 18
+POS current samples: 19
+POS current samples: 20
+POS current samples: 21
+POS current samples: 22
+POS current samples: 23
+POS current samples: 24
+POS current samples: 25
+POS current samples: 26
+POS current samples: 27
+POS current samples: 28
+POS current samples: 29
+POS current samples: 30
+POS current samples: 31
+POS current samples: 32
+POS current samples: 33
+POS current samples: 34
+POS current samples: 35
+POS current samples: 36
+POS current samples: 37
+POS current samples: 38
+POS current samples: 39
+POS current samples: 40
+POS current samples: 41
+POS current samples: 42
+POS current samples: 43
+POS current samples: 44
+POS current samples: 45
+POS current samples: 46
+POS current samples: 47
+POS current samples: 48
+POS current samples: 49
+POS current samples: 50
+POS current samples: 51
+POS current samples: 52
+POS current samples: 53
+POS current samples: 54
+POS current samples: 55
+POS current samples: 56
+POS current samples: 57
+POS current samples: 58
+POS current samples: 59
+POS current samples: 60
+POS current samples: 61
+POS current samples: 62
+POS current samples: 63
+POS current samples: 64
+POS current samples: 65
+POS current samples: 66
+POS current samples: 67
+POS current samples: 68
+POS current samples: 69
+POS current samples: 70
+POS current samples: 71
+POS current samples: 72
+POS current samples: 73
+POS current samples: 74
+POS current samples: 75
+POS current samples: 76
+POS current samples: 77
+POS current samples: 78
+POS current samples: 79
+POS current samples: 80
+POS current samples: 81
+POS current samples: 82
+POS current samples: 83
+POS current samples: 84
+POS current samples: 85
+POS current samples: 86
+POS current samples: 87
+POS current samples: 88
+POS current samples: 89
+POS current samples: 90
+POS current samples: 91
+POS current samples: 92
+POS current samples: 93
+POS current samples: 94
+POS current samples: 95
+POS current samples: 96
+POS current samples: 97
+POS current samples: 98
+POS current samples: 99
+POS current samples: 100
+POS current samples: 101
+POS current samples: 102
+POS current samples: 103
+POS current samples: 104
+POS current samples: 105
+POS current samples: 106
+POS current samples: 107
+POS current samples: 108
+POS current samples: 109
+POS current samples: 110
+POS current samples: 111
+POS current samples: 112
+POS current samples: 113
+POS current samples: 114
+POS current samples: 115
+POS current samples: 116
+POS current samples: 117
+POS current samples: 118
+POS current samples: 119
+POS current samples: 120
+POS current samples: 121
+POS current samples: 122
+POS current samples: 123
+POS current samples: 124
+POS current samples: 125
+POS current samples: 126
+POS current samples: 127
+POS current samples: 128
+POS current samples: 129
+POS current samples: 130
+POS current samples: 131
+POS current samples: 132
+POS current samples: 133
+POS current samples: 134
+POS current samples: 135
+POS current samples: 136
+POS current samples: 137
+POS current samples: 138
+POS current samples: 139
+POS current samples: 140
+POS current samples: 141
+POS count : consumed   141 : 141
+
+NEG current samples: 1
+NEG current samples: 2
+NEG current samples: 3
+NEG current samples: 4
+NEG current samples: 5
+NEG current samples: 6
+NEG current samples: 7
+NEG current samples: 8
+NEG current samples: 9
+NEG current samples: 10
+NEG current samples: 11
+NEG current samples: 12
+NEG current samples: 13
+NEG current samples: 14
+NEG current samples: 15
+NEG current samples: 16
+NEG current samples: 17
+NEG current samples: 18
+NEG current samples: 19
+NEG current samples: 20
+NEG current samples: 21
+NEG current samples: 22
+NEG current samples: 23
+NEG current samples: 24
+NEG current samples: 25
+NEG current samples: 26
+NEG current samples: 27
+NEG current samples: 28
+NEG current samples: 29
+NEG current samples: 30
+NEG current samples: 31
+NEG current samples: 32
+NEG current samples: 33
+NEG current samples: 34
+NEG current samples: 35
+NEG current samples: 36
+NEG current samples: 37
+NEG current samples: 38
+NEG current samples: 39
+NEG current samples: 40
+NEG current samples: 41
+NEG current samples: 42
+NEG current samples: 43
+NEG current samples: 44
+NEG current samples: 45
+NEG current samples: 46
+NEG current samples: 47
+NEG current samples: 48
+NEG current samples: 49
+NEG current samples: 50
+NEG current samples: 51
+NEG current samples: 52
+NEG current samples: 53
+NEG current samples: 54
+NEG current samples: 55
+NEG current samples: 56
+NEG current samples: 57
+NEG current samples: 58
+NEG current samples: 59
+NEG current samples: 60
+NEG current samples: 61
+NEG current samples: 62
+NEG current samples: 63
+NEG current samples: 64
+NEG current samples: 65
+NEG current samples: 66
+NEG current samples: 67
+NEG current samples: 68
+NEG current samples: 69
+NEG current samples: 70
+NEG current samples: 71
+NEG current samples: 72
+NEG current samples: 73
+NEG current samples: 74
+NEG current samples: 75
+NEG current samples: 76
+NEG current samples: 77
+NEG current samples: 78
+NEG current samples: 79
+NEG current samples: 80
+NEG current samples: 81
+NEG current samples: 82
+NEG current samples: 83
+NEG current samples: 84
+NEG current samples: 85
+NEG current samples: 86
+NEG current samples: 87
+NEG current samples: 88
+NEG current samples: 89
+NEG current samples: 90
+NEG current samples: 91
+NEG current samples: 92
+NEG current samples: 93
+NEG current samples: 94
+NEG current samples: 95
+NEG current samples: 96
+NEG current samples: 97
+NEG current samples: 98
+NEG current samples: 99
+NEG current samples: 100
+NEG current samples: 101
+NEG current samples: 102
+NEG current samples: 103
+NEG current samples: 104
+NEG current samples: 105
+NEG current samples: 106
+NEG current samples: 107
+NEG current samples: 108
+NEG current samples: 109
+NEG current samples: 110
+NEG current samples: 111
+NEG current samples: 112
+NEG current samples: 113
+NEG current samples: 114
+NEG current samples: 115
+NEG current samples: 116
+NEG current samples: 117
+NEG current samples: 118
+NEG current samples: 119
+NEG current samples: 120
+NEG current samples: 121
+NEG current samples: 122
+NEG current samples: 123
+NEG current samples: 124
+NEG current samples: 125
+NEG current samples: 126
+NEG current samples: 127
+NEG current samples: 128
+NEG current samples: 129
+NEG current samples: 130
+NEG current samples: 131
+NEG current samples: 132
+NEG current samples: 133
+NEG current samples: 134
+NEG current samples: 135
+NEG current samples: 136
+NEG current samples: 137
+NEG current samples: 138
+NEG current samples: 139
+NEG current samples: 140
+NEG current samples: 141
+NEG current samples: 142
+NEG current samples: 143
+NEG current samples: 144
+NEG current samples: 145
+NEG current samples: 146
+NEG count : acceptanceRatio    146 : 0.0848837
+
+Precalculation time: 3.255
+
++----+---------+---------+
+|  N |    HR   |    FA   |
++----+---------+---------+
+
+|   1|        1|        1|
++----+---------+---------+
+
+|   2|        1|        1|
++----+---------+---------+
+
+|   3|        1|        1|
++----+---------+---------+
+
+|   4|        1|        1|
++----+---------+---------+
+
+|   5|        1|        1|
++----+---------+---------+
+
+|   6|        1| 0.876712|
++----+---------+---------+
+
+|   7|        1| 0.636986|
++----+---------+---------+
+
+|   8|        1| 0.650685|
++----+---------+---------+
+
+|   9|        1| 0.520548|
++----+---------+---------+
+
+|  10|        1| 0.561644|
++----+---------+---------+
+
+|  11|        1| 0.390411|
++----+---------+---------+
+
+END>
+
+Training until now has taken 0 days 0 hours 2 minutes 32 seconds.
+
+
+===== TRAINING 8-stage =====
+<BEGIN
+
+POS current samples: 1
+POS current samples: 2
+POS current samples: 3
+POS current samples: 4
+POS current samples: 5
+POS current samples: 6
+POS current samples: 7
+POS current samples: 8
+POS current samples: 9
+POS current samples: 10
+POS current samples: 11
+POS current samples: 12
+POS current samples: 13
+POS current samples: 14
+POS current samples: 15
+POS current samples: 16
+POS current samples: 17
+POS current samples: 18
+POS current samples: 19
+POS current samples: 20
+POS current samples: 21
+POS current samples: 22
+POS current samples: 23
+POS current samples: 24
+POS current samples: 25
+POS current samples: 26
+POS current samples: 27
+POS current samples: 28
+POS current samples: 29
+POS current samples: 30
+POS current samples: 31
+POS current samples: 32
+POS current samples: 33
+POS current samples: 34
+POS current samples: 35
+POS current samples: 36
+POS current samples: 37
+POS current samples: 38
+POS current samples: 39
+POS current samples: 40
+POS current samples: 41
+POS current samples: 42
+POS current samples: 43
+POS current samples: 44
+POS current samples: 45
+POS current samples: 46
+POS current samples: 47
+POS current samples: 48
+POS current samples: 49
+POS current samples: 50
+POS current samples: 51
+POS current samples: 52
+POS current samples: 53
+POS current samples: 54
+POS current samples: 55
+POS current samples: 56
+POS current samples: 57
+POS current samples: 58
+POS current samples: 59
+POS current samples: 60
+POS current samples: 61
+POS current samples: 62
+POS current samples: 63
+POS current samples: 64
+POS current samples: 65
+POS current samples: 66
+POS current samples: 67
+POS current samples: 68
+POS current samples: 69
+POS current samples: 70
+POS current samples: 71
+POS current samples: 72
+POS current samples: 73
+POS current samples: 74
+POS current samples: 75
+POS current samples: 76
+POS current samples: 77
+POS current samples: 78
+POS current samples: 79
+POS current samples: 80
+POS current samples: 81
+POS current samples: 82
+POS current samples: 83
+POS current samples: 84
+POS current samples: 85
+POS current samples: 86
+POS current samples: 87
+POS current samples: 88
+POS current samples: 89
+POS current samples: 90
+POS current samples: 91
+POS current samples: 92
+POS current samples: 93
+POS current samples: 94
+POS current samples: 95
+POS current samples: 96
+POS current samples: 97
+POS current samples: 98
+POS current samples: 99
+POS current samples: 100
+POS current samples: 101
+POS current samples: 102
+POS current samples: 103
+POS current samples: 104
+POS current samples: 105
+POS current samples: 106
+POS current samples: 107
+POS current samples: 108
+POS current samples: 109
+POS current samples: 110
+POS current samples: 111
+POS current samples: 112
+POS current samples: 113
+POS current samples: 114
+POS current samples: 115
+POS current samples: 116
+POS current samples: 117
+POS current samples: 118
+POS current samples: 119
+POS current samples: 120
+POS current samples: 121
+POS current samples: 122
+POS current samples: 123
+POS current samples: 124
+POS current samples: 125
+POS current samples: 126
+POS current samples: 127
+POS current samples: 128
+POS current samples: 129
+POS current samples: 130
+POS current samples: 131
+POS current samples: 132
+POS current samples: 133
+POS current samples: 134
+POS current samples: 135
+POS current samples: 136
+POS current samples: 137
+POS current samples: 138
+POS current samples: 139
+POS current samples: 140
+POS current samples: 141
+POS count : consumed   141 : 141
+
+NEG current samples: 1
+NEG current samples: 2
+NEG current samples: 3
+NEG current samples: 4
+NEG current samples: 5
+NEG current samples: 6
+NEG current samples: 7
+NEG current samples: 8
+NEG current samples: 9
+NEG current samples: 10
+NEG current samples: 11
+NEG current samples: 12
+NEG current samples: 13
+NEG current samples: 14
+NEG current samples: 15
+NEG current samples: 16
+NEG current samples: 17
+NEG current samples: 18
+NEG current samples: 19
+NEG current samples: 20
+NEG current samples: 21
+NEG current samples: 22
+NEG current samples: 23
+NEG current samples: 24
+NEG current samples: 25
+NEG current samples: 26
+NEG current samples: 27
+NEG current samples: 28
+NEG current samples: 29
+NEG current samples: 30
+NEG current samples: 31
+NEG current samples: 32
+NEG current samples: 33
+NEG current samples: 34
+NEG current samples: 35
+NEG current samples: 36
+NEG current samples: 37
+NEG current samples: 38
+NEG current samples: 39
+NEG current samples: 40
+NEG current samples: 41
+NEG current samples: 42
+NEG current samples: 43
+NEG current samples: 44
+NEG current samples: 45
+NEG current samples: 46
+NEG current samples: 47
+NEG current samples: 48
+NEG current samples: 49
+NEG current samples: 50
+NEG current samples: 51
+NEG current samples: 52
+NEG current samples: 53
+NEG current samples: 54
+NEG current samples: 55
+NEG current samples: 56
+NEG current samples: 57
+NEG current samples: 58
+NEG current samples: 59
+NEG current samples: 60
+NEG current samples: 61
+NEG current samples: 62
+NEG current samples: 63
+NEG current samples: 64
+NEG current samples: 65
+NEG current samples: 66
+NEG current samples: 67
+NEG current samples: 68
+NEG current samples: 69
+NEG current samples: 70
+NEG current samples: 71
+NEG current samples: 72
+NEG current samples: 73
+NEG current samples: 74
+NEG current samples: 75
+NEG current samples: 76
+NEG current samples: 77
+NEG current samples: 78
+NEG current samples: 79
+NEG current samples: 80
+NEG current samples: 81
+NEG current samples: 82
+NEG current samples: 83
+NEG current samples: 84
+NEG current samples: 85
+NEG current samples: 86
+NEG current samples: 87
+NEG current samples: 88
+NEG current samples: 89
+NEG current samples: 90
+NEG current samples: 91
+NEG current samples: 92
+NEG current samples: 93
+NEG current samples: 94
+NEG current samples: 95
+NEG current samples: 96
+NEG current samples: 97
+NEG current samples: 98
+NEG current samples: 99
+NEG current samples: 100
+NEG current samples: 101
+NEG current samples: 102
+NEG current samples: 103
+NEG current samples: 104
+NEG current samples: 105
+NEG current samples: 106
+NEG current samples: 107
+NEG current samples: 108
+NEG current samples: 109
+NEG current samples: 110
+NEG current samples: 111
+NEG current samples: 112
+NEG current samples: 113
+NEG current samples: 114
+NEG current samples: 115
+NEG current samples: 116
+NEG current samples: 117
+NEG current samples: 118
+NEG current samples: 119
+NEG current samples: 120
+NEG current samples: 121
+NEG current samples: 122
+NEG current samples: 123
+NEG current samples: 124
+NEG current samples: 125
+NEG current samples: 126
+NEG current samples: 127
+NEG current samples: 128
+NEG current samples: 129
+NEG current samples: 130
+NEG current samples: 131
+NEG current samples: 132
+NEG current samples: 133
+NEG current samples: 134
+NEG current samples: 135
+NEG current samples: 136
+NEG current samples: 137
+NEG current samples: 138
+NEG current samples: 139
+NEG current samples: 140
+NEG current samples: 141
+NEG current samples: 142
+NEG current samples: 143
+NEG current samples: 144
+NEG current samples: 145
+NEG current samples: 146
+NEG count : acceptanceRatio    146 : 0.106414
+
+Precalculation time: 2.413
+
++----+---------+---------+
+|  N |    HR   |    FA   |
++----+---------+---------+
+
+|   1|        1|        1|
++----+---------+---------+
+
+|   2|        1|        1|
++----+---------+---------+
+
+|   3|        1|        1|
++----+---------+---------+
+
+|   4|        1|        1|
++----+---------+---------+
+
+|   5|        1|        1|
++----+---------+---------+
+
+|   6|        1|        1|
++----+---------+---------+
+
+|   7|        1|        1|
++----+---------+---------+
+
+|   8|        1| 0.938356|
++----+---------+---------+
+
+|   9|        1| 0.945205|
++----+---------+---------+
+
+|  10|        1| 0.890411|
++----+---------+---------+
+
+|  11|        1|  0.90411|
++----+---------+---------+
+
+|  12|        1| 0.842466|
++----+---------+---------+
+
+|  13|        1| 0.863014|
++----+---------+---------+
+
+|  14|        1| 0.773973|
++----+---------+---------+
+
+|  15|        1| 0.739726|
++----+---------+---------+
+
+|  16|        1| 0.760274|
++----+---------+---------+
+
+|  17|        1| 0.760274|
++----+---------+---------+
+
+|  18|        1| 0.705479|
++----+---------+---------+
+
+|  19|        1| 0.732877|
++----+---------+---------+
+
+|  20|        1| 0.739726|
++----+---------+---------+
+
+|  21|        1| 0.664384|
++----+---------+---------+
+
+|  22|        1| 0.684932|
++----+---------+---------+
+
+|  23|        1| 0.589041|
++----+---------+---------+
+
+|  24|        1| 0.589041|
++----+---------+---------+
+
+|  25|        1| 0.479452|
++----+---------+---------+
+
+END>
+
+Training until now has taken 0 days 0 hours 3 minutes 13 seconds.
+
+
+===== TRAINING 9-stage =====
+<BEGIN
+
+POS current samples: 1
+POS current samples: 2
+POS current samples: 3
+POS current samples: 4
+POS current samples: 5
+POS current samples: 6
+POS current samples: 7
+POS current samples: 8
+POS current samples: 9
+POS current samples: 10
+POS current samples: 11
+POS current samples: 12
+POS current samples: 13
+POS current samples: 14
+POS current samples: 15
+POS current samples: 16
+POS current samples: 17
+POS current samples: 18
+POS current samples: 19
+POS current samples: 20
+POS current samples: 21
+POS current samples: 22
+POS current samples: 23
+POS current samples: 24
+POS current samples: 25
+POS current samples: 26
+POS current samples: 27
+POS current samples: 28
+POS current samples: 29
+POS current samples: 30
+POS current samples: 31
+POS current samples: 32
+POS current samples: 33
+POS current samples: 34
+POS current samples: 35
+POS current samples: 36
+POS current samples: 37
+POS current samples: 38
+POS current samples: 39
+POS current samples: 40
+POS current samples: 41
+POS current samples: 42
+POS current samples: 43
+POS current samples: 44
+POS current samples: 45
+POS current samples: 46
+POS current samples: 47
+POS current samples: 48
+POS current samples: 49
+POS current samples: 50
+POS current samples: 51
+POS current samples: 52
+POS current samples: 53
+POS current samples: 54
+POS current samples: 55
+POS current samples: 56
+POS current samples: 57
+POS current samples: 58
+POS current samples: 59
+POS current samples: 60
+POS current samples: 61
+POS current samples: 62
+POS current samples: 63
+POS current samples: 64
+POS current samples: 65
+POS current samples: 66
+POS current samples: 67
+POS current samples: 68
+POS current samples: 69
+POS current samples: 70
+POS current samples: 71
+POS current samples: 72
+POS current samples: 73
+POS current samples: 74
+POS current samples: 75
+POS current samples: 76
+POS current samples: 77
+POS current samples: 78
+POS current samples: 79
+POS current samples: 80
+POS current samples: 81
+POS current samples: 82
+POS current samples: 83
+POS current samples: 84
+POS current samples: 85
+POS current samples: 86
+POS current samples: 87
+POS current samples: 88
+POS current samples: 89
+POS current samples: 90
+POS current samples: 91
+POS current samples: 92
+POS current samples: 93
+POS current samples: 94
+POS current samples: 95
+POS current samples: 96
+POS current samples: 97
+POS current samples: 98
+POS current samples: 99
+POS current samples: 100
+POS current samples: 101
+POS current samples: 102
+POS current samples: 103
+POS current samples: 104
+POS current samples: 105
+POS current samples: 106
+POS current samples: 107
+POS current samples: 108
+POS current samples: 109
+POS current samples: 110
+POS current samples: 111
+POS current samples: 112
+POS current samples: 113
+POS current samples: 114
+POS current samples: 115
+POS current samples: 116
+POS current samples: 117
+POS current samples: 118
+POS current samples: 119
+POS current samples: 120
+POS current samples: 121
+POS current samples: 122
+POS current samples: 123
+POS current samples: 124
+POS current samples: 125
+POS current samples: 126
+POS current samples: 127
+POS current samples: 128
+POS current samples: 129
+POS current samples: 130
+POS current samples: 131
+POS current samples: 132
+POS current samples: 133
+POS current samples: 134
+POS current samples: 135
+POS current samples: 136
+POS current samples: 137
+POS current samples: 138
+POS current samples: 139
+POS current samples: 140
+POS current samples: 141
+POS count : consumed   141 : 141
+
+NEG current samples: 1
+NEG current samples: 2
+NEG current samples: 3
+NEG current samples: 4
+NEG current samples: 5
+NEG current samples: 6
+NEG current samples: 7
+NEG current samples: 8
+NEG current samples: 9
+NEG current samples: 10
+NEG current samples: 11
+NEG current samples: 12
+NEG current samples: 13
+NEG current samples: 14
+NEG current samples: 15
+NEG current samples: 16
+NEG current samples: 17
+NEG current samples: 18
+NEG current samples: 19
+NEG current samples: 20
+NEG current samples: 21
+NEG current samples: 22
+NEG current samples: 23
+NEG current samples: 24
+NEG current samples: 25
+NEG current samples: 26
+NEG current samples: 27
+NEG current samples: 28
+NEG current samples: 29
+NEG current samples: 30
+NEG current samples: 31
+NEG current samples: 32
+NEG current samples: 33
+NEG current samples: 34
+NEG current samples: 35
+NEG current samples: 36
+NEG current samples: 37
+NEG current samples: 38
+NEG current samples: 39
+NEG current samples: 40
+NEG current samples: 41
+NEG current samples: 42
+NEG current samples: 43
+NEG current samples: 44
+NEG current samples: 45
+NEG current samples: 46
+NEG current samples: 47
+NEG current samples: 48
+NEG current samples: 49
+NEG current samples: 50
+NEG current samples: 51
+NEG current samples: 52
+NEG current samples: 53
+NEG current samples: 54
+NEG current samples: 55
+NEG current samples: 56
+NEG current samples: 57
+NEG current samples: 58
+NEG current samples: 59
+NEG current samples: 60
+NEG current samples: 61
+NEG current samples: 62
+NEG current samples: 63
+NEG current samples: 64
+NEG current samples: 65
+NEG current samples: 66
+NEG current samples: 67
+NEG current samples: 68
+NEG current samples: 69
+NEG current samples: 70
+NEG current samples: 71
+NEG current samples: 72
+NEG current samples: 73
+NEG current samples: 74
+NEG current samples: 75
+NEG current samples: 76
+NEG current samples: 77
+NEG current samples: 78
+NEG current samples: 79
+NEG current samples: 80
+NEG current samples: 81
+NEG current samples: 82
+NEG current samples: 83
+NEG current samples: 84
+NEG current samples: 85
+NEG current samples: 86
+NEG current samples: 87
+NEG current samples: 88
+NEG current samples: 89
+NEG current samples: 90
+NEG current samples: 91
+NEG current samples: 92
+NEG current samples: 93
+NEG current samples: 94
+NEG current samples: 95
+NEG current samples: 96
+NEG current samples: 97
+NEG current samples: 98
+NEG current samples: 99
+NEG current samples: 100
+NEG current samples: 101
+NEG current samples: 102
+NEG current samples: 103
+NEG current samples: 104
+NEG current samples: 105
+NEG current samples: 106
+NEG current samples: 107
+NEG current samples: 108
+NEG current samples: 109
+NEG current samples: 110
+NEG current samples: 111
+NEG current samples: 112
+NEG current samples: 113
+NEG current samples: 114
+NEG current samples: 115
+NEG current samples: 116
+NEG current samples: 117
+NEG current samples: 118
+NEG current samples: 119
+NEG current samples: 120
+NEG current samples: 121
+NEG current samples: 122
+NEG current samples: 123
+NEG current samples: 124
+NEG current samples: 125
+NEG current samples: 126
+NEG current samples: 127
+NEG current samples: 128
+NEG current samples: 129
+NEG current samples: 130
+NEG current samples: 131
+NEG current samples: 132
+NEG current samples: 133
+NEG current samples: 134
+NEG current samples: 135
+NEG current samples: 136
+NEG current samples: 137
+NEG current samples: 138
+NEG current samples: 139
+NEG current samples: 140
+NEG current samples: 141
+NEG current samples: 142
+NEG current samples: 143
+NEG current samples: 144
+NEG current samples: 145
+NEG current samples: 146
+NEG count : acceptanceRatio    146 : 0.16097
+
+Precalculation time: 1.968
+
++----+---------+---------+
+|  N |    HR   |    FA   |
++----+---------+---------+
+
+|   1|        1|        1|
++----+---------+---------+
+
+|   2|        1|        1|
++----+---------+---------+
+
+|   3|        1|        1|
++----+---------+---------+
+
+|   4|        1|        1|
++----+---------+---------+
+
+|   5|        1|        1|
++----+---------+---------+
+
+|   6|        1|        1|
++----+---------+---------+
+
+|   7|        1|        1|
++----+---------+---------+
+
+|   8|        1|        1|
++----+---------+---------+
+
+|   9|        1|        1|
++----+---------+---------+
+
+|  10|        1| 0.972603|
++----+---------+---------+
+
+|  11|        1| 0.972603|
++----+---------+---------+
+
+|  12|        1| 0.986301|
++----+---------+---------+
+
+|  13|        1| 0.910959|
++----+---------+---------+
+
+|  14|        1| 0.924658|
++----+---------+---------+
+
+|  15|        1| 0.938356|
++----+---------+---------+
+
+|  16|        1| 0.890411|
++----+---------+---------+
+
+|  17|        1|  0.89726|
++----+---------+---------+
+
+|  18|        1| 0.842466|
++----+---------+---------+
+
+|  19|        1| 0.856164|
++----+---------+---------+
+
+|  20|        1|  0.80137|
++----+---------+---------+
+
+|  21|        1|  0.80137|
++----+---------+---------+
+
+|  22|        1| 0.780822|
++----+---------+---------+
+
+|  23|        1| 0.780822|
++----+---------+---------+
+
+|  24|        1| 0.780822|
++----+---------+---------+
+
+|  25|        1| 0.780822|
++----+---------+---------+
+
+|  26|        1| 0.780822|
++----+---------+---------+
+
+|  27|        1| 0.780822|
++----+---------+---------+
+
+|  28|        1| 0.780822|
++----+---------+---------+
+
+|  29|        1| 0.780822|
++----+---------+---------+
+
+|  30|        1| 0.773973|
++----+---------+---------+
+
+|  31|        1| 0.773973|
++----+---------+---------+
+
+|  32|        1| 0.773973|
++----+---------+---------+
+
+|  33|        1| 0.773973|
++----+---------+---------+
+
+|  34|        1| 0.773973|
++----+---------+---------+
+
+|  35|        1| 0.773973|
++----+---------+---------+
+
+|  36|        1| 0.773973|
++----+---------+---------+
+
+|  37|        1| 0.773973|
++----+---------+---------+
+
+|  38|        1| 0.773973|
++----+---------+---------+
+
+|  39|        1| 0.773973|
++----+---------+---------+
+
+|  40|        1| 0.773973|
++----+---------+---------+
+
+|  41|        1| 0.773973|
++----+---------+---------+
+
+|  42|        1| 0.773973|
++----+---------+---------+
+
+|  43|        1| 0.773973|
++----+---------+---------+
+
+|  44|        1| 0.773973|
++----+---------+---------+
+
+|  45|        1| 0.773973|
++----+---------+---------+
+
+|  46|        1| 0.773973|
++----+---------+---------+
+
+|  47|        1| 0.773973|
++----+---------+---------+
+
+|  48|        1| 0.773973|
++----+---------+---------+
+
+|  49|        1| 0.773973|
++----+---------+---------+
+
+|  50|        1| 0.773973|
++----+---------+---------+
+
+|  51|        1| 0.773973|
++----+---------+---------+
+
+|  52|        1| 0.773973|
++----+---------+---------+
+
+|  53|        1| 0.773973|
++----+---------+---------+
+
+|  54|        1| 0.773973|
++----+---------+---------+
+
+|  55|        1| 0.773973|
++----+---------+---------+
+
+|  56|        1| 0.773973|
++----+---------+---------+
+
+|  57|        1| 0.773973|
++----+---------+---------+
+
+|  58|        1| 0.773973|
++----+---------+---------+
+
+|  59|        1| 0.773973|
++----+---------+---------+
+
+|  60|        1| 0.773973|
++----+---------+---------+
+
+|  61|        1| 0.773973|
++----+---------+---------+
+
+|  62|        1| 0.773973|
++----+---------+---------+
+
+|  63|        1| 0.773973|
++----+---------+---------+
+
+|  64|        1| 0.773973|
++----+---------+---------+
+
+|  65|        1| 0.773973|
++----+---------+---------+
+
+|  66|        1| 0.773973|
++----+---------+---------+
+
+|  67|        1| 0.773973|
++----+---------+---------+
+
+|  68|        1| 0.773973|
++----+---------+---------+
+
+|  69|        1| 0.773973|
++----+---------+---------+
+
+|  70|        1| 0.773973|
++----+---------+---------+
+
+|  71|        1| 0.773973|
++----+---------+---------+
+
+|  72|        1| 0.773973|
++----+---------+---------+
+
+|  73|        1| 0.773973|
++----+---------+---------+
+
+|  74|        1| 0.773973|
++----+---------+---------+
+
+|  75|        1| 0.773973|
++----+---------+---------+
+
+|  76|        1| 0.773973|
++----+---------+---------+
+
+|  77|        1| 0.773973|
++----+---------+---------+
+
+|  78|        1| 0.773973|
++----+---------+---------+
+
+|  79|        1| 0.773973|
++----+---------+---------+
+
+|  80|        1| 0.773973|
++----+---------+---------+
+
+|  81|        1| 0.773973|
++----+---------+---------+
+
+|  82|        1| 0.773973|
++----+---------+---------+
+
+|  83|        1| 0.773973|
++----+---------+---------+
+
+|  84|        1| 0.773973|
++----+---------+---------+
+
+|  85|        1| 0.773973|
++----+---------+---------+
+
+|  86|        1| 0.773973|
++----+---------+---------+
+
+|  87|        1| 0.773973|
++----+---------+---------+
+
+|  88|        1| 0.773973|
++----+---------+---------+
+
+|  89|        1| 0.773973|
++----+---------+---------+
+
+|  90|        1| 0.773973|
++----+---------+---------+
+
+|  91|        1| 0.773973|
++----+---------+---------+
+
+|  92|        1| 0.773973|
++----+---------+---------+
+
+|  93|        1| 0.773973|
++----+---------+---------+
+
+|  94|        1| 0.773973|
++----+---------+---------+
+
+|  95|        1| 0.773973|
++----+---------+---------+
+
+|  96|        1| 0.773973|
++----+---------+---------+
+
+|  97|        1| 0.773973|
++----+---------+---------+
+
+|  98|        1| 0.773973|
++----+---------+---------+
+
+|  99|        1| 0.773973|
++----+---------+---------+
+
+| 100|        1| 0.773973|
++----+---------+---------+
+
+END>
+
+Training until now has taken 0 days 0 hours 5 minutes 15 seconds.
+
+
+===== TRAINING 10-stage =====
+<BEGIN
+
+POS current samples: 1
+POS current samples: 2
+POS current samples: 3
+POS current samples: 4
+POS current samples: 5
+POS current samples: 6
+POS current samples: 7
+POS current samples: 8
+POS current samples: 9
+POS current samples: 10
+POS current samples: 11
+POS current samples: 12
+POS current samples: 13
+POS current samples: 14
+POS current samples: 15
+POS current samples: 16
+POS current samples: 17
+POS current samples: 18
+POS current samples: 19
+POS current samples: 20
+POS current samples: 21
+POS current samples: 22
+POS current samples: 23
+POS current samples: 24
+POS current samples: 25
+POS current samples: 26
+POS current samples: 27
+POS current samples: 28
+POS current samples: 29
+POS current samples: 30
+POS current samples: 31
+POS current samples: 32
+POS current samples: 33
+POS current samples: 34
+POS current samples: 35
+POS current samples: 36
+POS current samples: 37
+POS current samples: 38
+POS current samples: 39
+POS current samples: 40
+POS current samples: 41
+POS current samples: 42
+POS current samples: 43
+POS current samples: 44
+POS current samples: 45
+POS current samples: 46
+POS current samples: 47
+POS current samples: 48
+POS current samples: 49
+POS current samples: 50
+POS current samples: 51
+POS current samples: 52
+POS current samples: 53
+POS current samples: 54
+POS current samples: 55
+POS current samples: 56
+POS current samples: 57
+POS current samples: 58
+POS current samples: 59
+POS current samples: 60
+POS current samples: 61
+POS current samples: 62
+POS current samples: 63
+POS current samples: 64
+POS current samples: 65
+POS current samples: 66
+POS current samples: 67
+POS current samples: 68
+POS current samples: 69
+POS current samples: 70
+POS current samples: 71
+POS current samples: 72
+POS current samples: 73
+POS current samples: 74
+POS current samples: 75
+POS current samples: 76
+POS current samples: 77
+POS current samples: 78
+POS current samples: 79
+POS current samples: 80
+POS current samples: 81
+POS current samples: 82
+POS current samples: 83
+POS current samples: 84
+POS current samples: 85
+POS current samples: 86
+POS current samples: 87
+POS current samples: 88
+POS current samples: 89
+POS current samples: 90
+POS current samples: 91
+POS current samples: 92
+POS current samples: 93
+POS current samples: 94
+POS current samples: 95
+POS current samples: 96
+POS current samples: 97
+POS current samples: 98
+POS current samples: 99
+POS current samples: 100
+POS current samples: 101
+POS current samples: 102
+POS current samples: 103
+POS current samples: 104
+POS current samples: 105
+POS current samples: 106
+POS current samples: 107
+POS current samples: 108
+POS current samples: 109
+POS current samples: 110
+POS current samples: 111
+POS current samples: 112
+POS current samples: 113
+POS current samples: 114
+POS current samples: 115
+POS current samples: 116
+POS current samples: 117
+POS current samples: 118
+POS current samples: 119
+POS current samples: 120
+POS current samples: 121
+POS current samples: 122
+POS current samples: 123
+POS current samples: 124
+POS current samples: 125
+POS current samples: 126
+POS current samples: 127
+POS current samples: 128
+POS current samples: 129
+POS current samples: 130
+POS current samples: 131
+POS current samples: 132
+POS current samples: 133
+POS current samples: 134
+POS current samples: 135
+POS current samples: 136
+POS current samples: 137
+POS current samples: 138
+POS current samples: 139
+POS current samples: 140
+POS current samples: 141
+POS count : consumed   141 : 141
+
+NEG current samples: 1
+NEG current samples: 2
+NEG current samples: 3
+NEG current samples: 4
+NEG current samples: 5
+NEG current samples: 6
+NEG current samples: 7
+NEG current samples: 8
+NEG current samples: 9
+NEG current samples: 10
+NEG current samples: 11
+NEG current samples: 12
+NEG current samples: 13
+NEG current samples: 14
+NEG current samples: 15
+NEG current samples: 16
+NEG current samples: 17
+NEG current samples: 18
+NEG current samples: 19
+NEG current samples: 20
+NEG current samples: 21
+NEG current samples: 22
+NEG current samples: 23
+NEG current samples: 24
+NEG current samples: 25
+NEG current samples: 26
+NEG current samples: 27
+NEG current samples: 28
+NEG current samples: 29
+NEG current samples: 30
+NEG current samples: 31
+NEG current samples: 32
+NEG current samples: 33
+NEG current samples: 34
+NEG current samples: 35
+NEG current samples: 36
+NEG current samples: 37
+NEG current samples: 38
+NEG current samples: 39
+NEG current samples: 40
+NEG current samples: 41
+NEG current samples: 42
+NEG current samples: 43
+NEG current samples: 44
+NEG current samples: 45
+NEG current samples: 46
+NEG current samples: 47
+NEG current samples: 48
+NEG current samples: 49
+NEG current samples: 50
+NEG current samples: 51
+NEG current samples: 52
+NEG current samples: 53
+NEG current samples: 54
+NEG current samples: 55
+NEG current samples: 56
+NEG current samples: 57
+NEG current samples: 58
+NEG current samples: 59
+NEG current samples: 60
+NEG current samples: 61
+NEG current samples: 62
+NEG current samples: 63
+NEG current samples: 64
+NEG current samples: 65
+NEG current samples: 66
+NEG current samples: 67
+NEG current samples: 68
+NEG current samples: 69
+NEG current samples: 70
+NEG current samples: 71
+NEG current samples: 72
+NEG current samples: 73
+NEG current samples: 74
+NEG current samples: 75
+NEG current samples: 76
+NEG current samples: 77
+NEG current samples: 78
+NEG current samples: 79
+NEG current samples: 80
+NEG current samples: 81
+NEG current samples: 82
+NEG current samples: 83
+NEG current samples: 84
+NEG current samples: 85
+NEG current samples: 86
+NEG current samples: 87
+NEG current samples: 88
+NEG current samples: 89
+NEG current samples: 90
+NEG current samples: 91
+NEG current samples: 92
+NEG current samples: 93
+NEG current samples: 94
+NEG current samples: 95
+NEG current samples: 96
+NEG current samples: 97
+NEG current samples: 98
+NEG current samples: 99
+NEG current samples: 100
+NEG current samples: 101
+NEG current samples: 102
+NEG current samples: 103
+NEG current samples: 104
+NEG current samples: 105
+NEG current samples: 106
+NEG current samples: 107
+NEG current samples: 108
+NEG current samples: 109
+NEG current samples: 110
+NEG current samples: 111
+NEG current samples: 112
+NEG current samples: 113
+NEG current samples: 114
+NEG current samples: 115
+NEG current samples: 116
+NEG current samples: 117
+NEG current samples: 118
+NEG current samples: 119
+NEG current samples: 120
+NEG current samples: 121
+NEG current samples: 122
+NEG current samples: 123
+NEG current samples: 124
+NEG current samples: 125
+NEG current samples: 126
+NEG current samples: 127
+NEG current samples: 128
+NEG current samples: 129
+NEG current samples: 130
+NEG current samples: 131
+NEG current samples: 132
+NEG current samples: 133
+NEG current samples: 134
+NEG current samples: 135
+NEG current samples: 136
+NEG current samples: 137
+NEG current samples: 138
+NEG current samples: 139
+NEG current samples: 140
+NEG current samples: 141
+NEG current samples: 142
+NEG current samples: 143
+NEG current samples: 144
+NEG current samples: 145
+NEG current samples: 146
+NEG count : acceptanceRatio    146 : 0.115781
+
+Precalculation time: 2.076
+
++----+---------+---------+
+|  N |    HR   |    FA   |
++----+---------+---------+
+
+|   1|        1|        1|
++----+---------+---------+
+
+|   2|        1|        1|
++----+---------+---------+
+
+|   3|        1|        1|
++----+---------+---------+
+
+|   4|        1|        1|
++----+---------+---------+
+
+|   5|        1|        1|
++----+---------+---------+
+
+|   6|        1|        1|
++----+---------+---------+
+
+|   7|        1|        1|
++----+---------+---------+
+
+|   8|        1| 0.993151|
++----+---------+---------+
+
+|   9|        1| 0.993151|
++----+---------+---------+
+
+|  10|        1| 0.965753|
++----+---------+---------+
+
+|  11|        1| 0.979452|
++----+---------+---------+
+
+|  12|        1| 0.958904|
++----+---------+---------+
+
+|  13|        1| 0.972603|
++----+---------+---------+
+
+|  14|        1| 0.931507|
++----+---------+---------+
+
+|  15|        1| 0.952055|
++----+---------+---------+
+
+|  16|        1|  0.90411|
++----+---------+---------+
+
+|  17|        1| 0.924658|
++----+---------+---------+
+
+|  18|        1| 0.821918|
++----+---------+---------+
+
+|  19|        1| 0.856164|
++----+---------+---------+
+
+|  20|        1| 0.876712|
++----+---------+---------+
+
+|  21|        1| 0.760274|
++----+---------+---------+
+
+|  22|        1| 0.787671|
++----+---------+---------+
+
+|  23|        1|  0.69863|
++----+---------+---------+
+
+|  24|        1| 0.719178|
++----+---------+---------+
+
+|  25|        1|  0.69863|
++----+---------+---------+
+
+|  26|        1|  0.69863|
++----+---------+---------+
+
+|  27|        1| 0.678082|
++----+---------+---------+
+
+|  28|        1| 0.678082|
++----+---------+---------+
+
+|  29|        1| 0.664384|
++----+---------+---------+
+
+|  30|        1| 0.664384|
++----+---------+---------+
+
+|  31|        1| 0.657534|
++----+---------+---------+
+
+|  32|        1| 0.657534|
++----+---------+---------+
+
+|  33|        1| 0.650685|
++----+---------+---------+
+
+|  34|        1| 0.657534|
++----+---------+---------+
+
+|  35|        1| 0.650685|
++----+---------+---------+
+
+|  36|        1| 0.650685|
++----+---------+---------+
+
+|  37|        1| 0.650685|
++----+---------+---------+
+
+|  38|        1| 0.650685|
++----+---------+---------+
+
+|  39|        1| 0.650685|
++----+---------+---------+
+
+|  40|        1| 0.650685|
++----+---------+---------+
+
+|  41|        1| 0.650685|
++----+---------+---------+
+
+|  42|        1| 0.650685|
++----+---------+---------+
+
+|  43|        1| 0.650685|
++----+---------+---------+
+
+|  44|        1| 0.650685|
++----+---------+---------+
+
+|  45|        1| 0.650685|
++----+---------+---------+
+
+|  46|        1| 0.650685|
++----+---------+---------+
+
+|  47|        1| 0.650685|
++----+---------+---------+
+
+|  48|        1| 0.650685|
++----+---------+---------+
+
+|  49|        1| 0.650685|
++----+---------+---------+
+
+|  50|        1| 0.650685|
++----+---------+---------+
+
+|  51|        1| 0.650685|
++----+---------+---------+
+
+|  52|        1| 0.650685|
++----+---------+---------+
+
+|  53|        1| 0.650685|
++----+---------+---------+
+
+|  54|        1| 0.650685|
++----+---------+---------+
+
+|  55|        1| 0.650685|
++----+---------+---------+
+
+|  56|        1| 0.650685|
++----+---------+---------+
+
+|  57|        1| 0.650685|
++----+---------+---------+
+
+|  58|        1| 0.650685|
++----+---------+---------+
+
+|  59|        1| 0.650685|
++----+---------+---------+
+
+|  60|        1| 0.650685|
++----+---------+---------+
+
+|  61|        1| 0.650685|
++----+---------+---------+
+
+|  62|        1| 0.650685|
++----+---------+---------+
+
+|  63|        1| 0.650685|
++----+---------+---------+
+
+|  64|        1| 0.650685|
++----+---------+---------+
+
+|  65|        1| 0.650685|
++----+---------+---------+
+
+|  66|        1| 0.650685|
++----+---------+---------+
+
+|  67|        1| 0.650685|
++----+---------+---------+
+
+|  68|        1| 0.650685|
++----+---------+---------+
+
+|  69|        1| 0.650685|
++----+---------+---------+
+
+|  70|        1| 0.650685|
++----+---------+---------+
+
+|  71|        1| 0.650685|
++----+---------+---------+
+
+|  72|        1| 0.650685|
++----+---------+---------+
+
+|  73|        1| 0.650685|
++----+---------+---------+
+
+|  74|        1| 0.650685|
++----+---------+---------+
+
+|  75|        1| 0.650685|
++----+---------+---------+
+
+|  76|        1| 0.650685|
++----+---------+---------+
+
+|  77|        1| 0.650685|
++----+---------+---------+
+
+|  78|        1| 0.650685|
++----+---------+---------+
+
+|  79|        1| 0.650685|
++----+---------+---------+
+
+|  80|        1| 0.650685|
++----+---------+---------+
+
+|  81|        1| 0.650685|
++----+---------+---------+
+
+|  82|        1| 0.650685|
++----+---------+---------+
+
+|  83|        1| 0.650685|
++----+---------+---------+
+
+|  84|        1| 0.650685|
++----+---------+---------+
+
+|  85|        1| 0.650685|
++----+---------+---------+
+
+|  86|        1| 0.650685|
++----+---------+---------+
+
+|  87|        1| 0.650685|
++----+---------+---------+
+
+|  88|        1| 0.650685|
++----+---------+---------+
+
+|  89|        1| 0.650685|
++----+---------+---------+
+
+|  90|        1| 0.650685|
++----+---------+---------+
+
+|  91|        1| 0.650685|
++----+---------+---------+
+
+|  92|        1| 0.650685|
++----+---------+---------+
+
+|  93|        1| 0.650685|
++----+---------+---------+
+
+|  94|        1| 0.650685|
++----+---------+---------+
+
+|  95|        1| 0.650685|
++----+---------+---------+
+
+|  96|        1| 0.650685|
++----+---------+---------+
+
+|  97|        1| 0.650685|
++----+---------+---------+
+
+|  98|        1| 0.650685|
++----+---------+---------+
+
+|  99|        1| 0.650685|
++----+---------+---------+
+
+| 100|        1| 0.650685|
++----+---------+---------+
+
+END>
+
+Training until now has taken 0 days 0 hours 7 minutes 24 seconds.
+
+
+===== TRAINING 11-stage =====
+<BEGIN
+
+POS current samples: 1
+POS current samples: 2
+POS current samples: 3
+POS current samples: 4
+POS current samples: 5
+POS current samples: 6
+POS current samples: 7
+POS current samples: 8
+POS current samples: 9
+POS current samples: 10
+POS current samples: 11
+POS current samples: 12
+POS current samples: 13
+POS current samples: 14
+POS current samples: 15
+POS current samples: 16
+POS current samples: 17
+POS current samples: 18
+POS current samples: 19
+POS current samples: 20
+POS current samples: 21
+POS current samples: 22
+POS current samples: 23
+POS current samples: 24
+POS current samples: 25
+POS current samples: 26
+POS current samples: 27
+POS current samples: 28
+POS current samples: 29
+POS current samples: 30
+POS current samples: 31
+POS current samples: 32
+POS current samples: 33
+POS current samples: 34
+POS current samples: 35
+POS current samples: 36
+POS current samples: 37
+POS current samples: 38
+POS current samples: 39
+POS current samples: 40
+POS current samples: 41
+POS current samples: 42
+POS current samples: 43
+POS current samples: 44
+POS current samples: 45
+POS current samples: 46
+POS current samples: 47
+POS current samples: 48
+POS current samples: 49
+POS current samples: 50
+POS current samples: 51
+POS current samples: 52
+POS current samples: 53
+POS current samples: 54
+POS current samples: 55
+POS current samples: 56
+POS current samples: 57
+POS current samples: 58
+POS current samples: 59
+POS current samples: 60
+POS current samples: 61
+POS current samples: 62
+POS current samples: 63
+POS current samples: 64
+POS current samples: 65
+POS current samples: 66
+POS current samples: 67
+POS current samples: 68
+POS current samples: 69
+POS current samples: 70
+POS current samples: 71
+POS current samples: 72
+POS current samples: 73
+POS current samples: 74
+POS current samples: 75
+POS current samples: 76
+POS current samples: 77
+POS current samples: 78
+POS current samples: 79
+POS current samples: 80
+POS current samples: 81
+POS current samples: 82
+POS current samples: 83
+POS current samples: 84
+POS current samples: 85
+POS current samples: 86
+POS current samples: 87
+POS current samples: 88
+POS current samples: 89
+POS current samples: 90
+POS current samples: 91
+POS current samples: 92
+POS current samples: 93
+POS current samples: 94
+POS current samples: 95
+POS current samples: 96
+POS current samples: 97
+POS current samples: 98
+POS current samples: 99
+POS current samples: 100
+POS current samples: 101
+POS current samples: 102
+POS current samples: 103
+POS current samples: 104
+POS current samples: 105
+POS current samples: 106
+POS current samples: 107
+POS current samples: 108
+POS current samples: 109
+POS current samples: 110
+POS current samples: 111
+POS current samples: 112
+POS current samples: 113
+POS current samples: 114
+POS current samples: 115
+POS current samples: 116
+POS current samples: 117
+POS current samples: 118
+POS current samples: 119
+POS current samples: 120
+POS current samples: 121
+POS current samples: 122
+POS current samples: 123
+POS current samples: 124
+POS current samples: 125
+POS current samples: 126
+POS current samples: 127
+POS current samples: 128
+POS current samples: 129
+POS current samples: 130
+POS current samples: 131
+POS current samples: 132
+POS current samples: 133
+POS current samples: 134
+POS current samples: 135
+POS current samples: 136
+POS current samples: 137
+POS current samples: 138
+POS current samples: 139
+POS current samples: 140
+POS current samples: 141
+POS count : consumed   141 : 141
+
+NEG current samples: 1
+NEG current samples: 2
+NEG current samples: 3
+NEG current samples: 4
+NEG current samples: 5
+NEG current samples: 6
+NEG current samples: 7
+NEG current samples: 8
+NEG current samples: 9
+NEG current samples: 10
+NEG current samples: 11
+NEG current samples: 12
+NEG current samples: 13
+NEG current samples: 14
+NEG current samples: 15
+NEG current samples: 16
+NEG current samples: 17
+NEG current samples: 18
+NEG current samples: 19
+NEG current samples: 20
+NEG current samples: 21
+NEG current samples: 22
+NEG current samples: 23
+NEG current samples: 24
+NEG current samples: 25
+NEG current samples: 26
+NEG current samples: 27
+NEG current samples: 28
+NEG current samples: 29
+NEG current samples: 30
+NEG current samples: 31
+NEG current samples: 32
+NEG current samples: 33
+NEG current samples: 34
+NEG current samples: 35
+NEG current samples: 36
+NEG current samples: 37
+NEG current samples: 38
+NEG current samples: 39
+NEG current samples: 40
+NEG current samples: 41
+NEG current samples: 42
+NEG current samples: 43
+NEG current samples: 44
+NEG current samples: 45
+NEG current samples: 46
+NEG current samples: 47
+NEG current samples: 48
+NEG current samples: 49
+NEG current samples: 50
+NEG current samples: 51
+NEG current samples: 52
+NEG current samples: 53
+NEG current samples: 54
+NEG current samples: 55
+NEG current samples: 56
+NEG current samples: 57
+NEG current samples: 58
+NEG current samples: 59
+NEG current samples: 60
+NEG current samples: 61
+NEG current samples: 62
+NEG current samples: 63
+NEG current samples: 64
+NEG current samples: 65
+NEG current samples: 66
+NEG current samples: 67
+NEG current samples: 68
+NEG current samples: 69
+NEG current samples: 70
+NEG current samples: 71
+NEG current samples: 72
+NEG current samples: 73
+NEG current samples: 74
+NEG current samples: 75
+NEG current samples: 76
+NEG current samples: 77
+NEG current samples: 78
+NEG current samples: 79
+NEG current samples: 80
+NEG current samples: 81
+NEG current samples: 82
+NEG current samples: 83
+NEG current samples: 84
+NEG current samples: 85
+NEG current samples: 86
+NEG current samples: 87
+NEG current samples: 88
+NEG current samples: 89
+NEG current samples: 90
+NEG current samples: 91
+NEG current samples: 92
+NEG current samples: 93
+NEG current samples: 94
+NEG current samples: 95
+NEG current samples: 96
+NEG current samples: 97
+NEG current samples: 98
+NEG current samples: 99
+NEG current samples: 100
+NEG current samples: 101
+NEG current samples: 102
+NEG current samples: 103
+NEG current samples: 104
+NEG current samples: 105
+NEG current samples: 106
+NEG current samples: 107
+NEG current samples: 108
+NEG current samples: 109
+NEG current samples: 110
+NEG current samples: 111
+NEG current samples: 112
+NEG current samples: 113
+NEG current samples: 114
+NEG current samples: 115
+NEG current samples: 116
+NEG current samples: 117
+NEG current samples: 118
+NEG current samples: 119
+NEG current samples: 120
+NEG current samples: 121
+NEG current samples: 122
+NEG current samples: 123
+NEG current samples: 124
+NEG current samples: 125
+NEG current samples: 126
+NEG current samples: 127
+NEG current samples: 128
+NEG current samples: 129
+NEG current samples: 130
+NEG current samples: 131
+NEG current samples: 132
+NEG current samples: 133
+NEG current samples: 134
+NEG current samples: 135
+NEG current samples: 136
+NEG current samples: 137
+NEG current samples: 138
+NEG current samples: 139
+NEG current samples: 140
+NEG current samples: 141
+NEG current samples: 142
+NEG current samples: 143
+NEG current samples: 144
+NEG current samples: 145
+NEG current samples: 146
+NEG count : acceptanceRatio    146 : 0.0583766
+
+Precalculation time: 2.506
+
++----+---------+---------+
+|  N |    HR   |    FA   |
++----+---------+---------+
+
+|   1|        1|        1|
++----+---------+---------+
+
+|   2|        1|        1|
++----+---------+---------+
+
+|   3|        1|        1|
++----+---------+---------+
+
+|   4|        1|        1|
++----+---------+---------+
+
+|   5|        1|        1|
++----+---------+---------+
+
+|   6|        1|        1|
++----+---------+---------+
+
+|   7|        1|        1|
++----+---------+---------+
+
+|   8|        1|        1|
++----+---------+---------+
+
+|   9|        1| 0.993151|
++----+---------+---------+
+
+|  10|        1| 0.993151|
++----+---------+---------+
+
+|  11|        1| 0.972603|
++----+---------+---------+
+
+|  12|        1| 0.979452|
++----+---------+---------+
+
+|  13|        1| 0.924658|
++----+---------+---------+
+
+|  14|        1| 0.931507|
++----+---------+---------+
+
+|  15|        1|  0.89726|
++----+---------+---------+
+
+|  16|        1|  0.89726|
++----+---------+---------+
+
+|  17|        1| 0.828767|
++----+---------+---------+
+
+|  18|        1| 0.835616|
++----+---------+---------+
+
+|  19|        1| 0.808219|
++----+---------+---------+
+
+|  20|        1| 0.808219|
++----+---------+---------+
+
+|  21|        1| 0.719178|
++----+---------+---------+
+
+|  22|        1| 0.719178|
++----+---------+---------+
+
+|  23|        1| 0.726027|
++----+---------+---------+
+
+|  24|        1| 0.630137|
++----+---------+---------+
+
+|  25|        1| 0.636986|
++----+---------+---------+
+
+|  26|        1| 0.561644|
++----+---------+---------+
+
+|  27|        1| 0.582192|
++----+---------+---------+
+
+|  28|        1| 0.582192|
++----+---------+---------+
+
+|  29|        1| 0.506849|
++----+---------+---------+
+
+|  30|        1| 0.513699|
++----+---------+---------+
+
+|  31|        1| 0.479452|
++----+---------+---------+
+
+END>
+
+Training until now has taken 0 days 0 hours 8 minutes 15 seconds.
+
+
+===== TRAINING 12-stage =====
+<BEGIN
+
+POS current samples: 1
+POS current samples: 2
+POS current samples: 3
+POS current samples: 4
+POS current samples: 5
+POS current samples: 6
+POS current samples: 7
+POS current samples: 8
+POS current samples: 9
+POS current samples: 10
+POS current samples: 11
+POS current samples: 12
+POS current samples: 13
+POS current samples: 14
+POS current samples: 15
+POS current samples: 16
+POS current samples: 17
+POS current samples: 18
+POS current samples: 19
+POS current samples: 20
+POS current samples: 21
+POS current samples: 22
+POS current samples: 23
+POS current samples: 24
+POS current samples: 25
+POS current samples: 26
+POS current samples: 27
+POS current samples: 28
+POS current samples: 29
+POS current samples: 30
+POS current samples: 31
+POS current samples: 32
+POS current samples: 33
+POS current samples: 34
+POS current samples: 35
+POS current samples: 36
+POS current samples: 37
+POS current samples: 38
+POS current samples: 39
+POS current samples: 40
+POS current samples: 41
+POS current samples: 42
+POS current samples: 43
+POS current samples: 44
+POS current samples: 45
+POS current samples: 46
+POS current samples: 47
+POS current samples: 48
+POS current samples: 49
+POS current samples: 50
+POS current samples: 51
+POS current samples: 52
+POS current samples: 53
+POS current samples: 54
+POS current samples: 55
+POS current samples: 56
+POS current samples: 57
+POS current samples: 58
+POS current samples: 59
+POS current samples: 60
+POS current samples: 61
+POS current samples: 62
+POS current samples: 63
+POS current samples: 64
+POS current samples: 65
+POS current samples: 66
+POS current samples: 67
+POS current samples: 68
+POS current samples: 69
+POS current samples: 70
+POS current samples: 71
+POS current samples: 72
+POS current samples: 73
+POS current samples: 74
+POS current samples: 75
+POS current samples: 76
+POS current samples: 77
+POS current samples: 78
+POS current samples: 79
+POS current samples: 80
+POS current samples: 81
+POS current samples: 82
+POS current samples: 83
+POS current samples: 84
+POS current samples: 85
+POS current samples: 86
+POS current samples: 87
+POS current samples: 88
+POS current samples: 89
+POS current samples: 90
+POS current samples: 91
+POS current samples: 92
+POS current samples: 93
+POS current samples: 94
+POS current samples: 95
+POS current samples: 96
+POS current samples: 97
+POS current samples: 98
+POS current samples: 99
+POS current samples: 100
+POS current samples: 101
+POS current samples: 102
+POS current samples: 103
+POS current samples: 104
+POS current samples: 105
+POS current samples: 106
+POS current samples: 107
+POS current samples: 108
+POS current samples: 109
+POS current samples: 110
+POS current samples: 111
+POS current samples: 112
+POS current samples: 113
+POS current samples: 114
+POS current samples: 115
+POS current samples: 116
+POS current samples: 117
+POS current samples: 118
+POS current samples: 119
+POS current samples: 120
+POS current samples: 121
+POS current samples: 122
+POS current samples: 123
+POS current samples: 124
+POS current samples: 125
+POS current samples: 126
+POS current samples: 127
+POS current samples: 128
+POS current samples: 129
+POS current samples: 130
+POS current samples: 131
+POS current samples: 132
+POS current samples: 133
+POS current samples: 134
+POS current samples: 135
+POS current samples: 136
+POS current samples: 137
+POS current samples: 138
+POS current samples: 139
+POS current samples: 140
+POS current samples: 141
+POS count : consumed   141 : 141
+
+NEG current samples: 1
+NEG current samples: 2
+NEG current samples: 3
+NEG current samples: 4
+NEG current samples: 5
+NEG current samples: 6
+NEG current samples: 7
+NEG current samples: 8
+NEG current samples: 9
+NEG current samples: 10
+NEG current samples: 11
+NEG current samples: 12
+NEG current samples: 13
+NEG current samples: 14
+NEG current samples: 15
+NEG current samples: 16
+NEG current samples: 17
+NEG current samples: 18
+NEG current samples: 19
+NEG current samples: 20
+NEG current samples: 21
+NEG current samples: 22
+NEG current samples: 23
+NEG current samples: 24
+NEG current samples: 25
+NEG current samples: 26
+NEG current samples: 27
+NEG current samples: 28
+NEG current samples: 29
+NEG current samples: 30
+NEG current samples: 31
+NEG current samples: 32
+NEG current samples: 33
+NEG current samples: 34
+NEG current samples: 35
+NEG current samples: 36
+NEG current samples: 37
+NEG current samples: 38
+NEG current samples: 39
+NEG current samples: 40
+NEG current samples: 41
+NEG current samples: 42
+NEG current samples: 43
+NEG current samples: 44
+NEG current samples: 45
+NEG current samples: 46
+NEG current samples: 47
+NEG current samples: 48
+NEG current samples: 49
+NEG current samples: 50
+NEG current samples: 51
+NEG current samples: 52
+NEG current samples: 53
+NEG current samples: 54
+NEG current samples: 55
+NEG current samples: 56
+NEG current samples: 57
+NEG current samples: 58
+NEG current samples: 59
+NEG current samples: 60
+NEG current samples: 61
+NEG current samples: 62
+NEG current samples: 63
+NEG current samples: 64
+NEG current samples: 65
+NEG current samples: 66
+NEG current samples: 67
+NEG current samples: 68
+NEG current samples: 69
+NEG current samples: 70
+NEG current samples: 71
+NEG current samples: 72
+NEG current samples: 73
+NEG current samples: 74
+NEG current samples: 75
+NEG current samples: 76
+NEG current samples: 77
+NEG current samples: 78
+NEG current samples: 79
+NEG current samples: 80
+NEG current samples: 81
+NEG current samples: 82
+NEG current samples: 83
+NEG current samples: 84
+NEG current samples: 85
+NEG current samples: 86
+NEG current samples: 87
+NEG current samples: 88
+NEG current samples: 89
+NEG current samples: 90
+NEG current samples: 91
+NEG current samples: 92
+NEG current samples: 93
+NEG current samples: 94
+NEG current samples: 95
+NEG current samples: 96
+NEG current samples: 97
+NEG current samples: 98
+NEG current samples: 99
+NEG current samples: 100
+NEG current samples: 101
+NEG current samples: 102
+NEG current samples: 103
+NEG current samples: 104
+NEG current samples: 105
+NEG current samples: 106
+NEG current samples: 107
+NEG current samples: 108
+NEG current samples: 109
+NEG current samples: 110
+NEG current samples: 111
+NEG current samples: 112
+NEG current samples: 113
+NEG current samples: 114
+NEG current samples: 115
+NEG current samples: 116
+NEG current samples: 117
+NEG current samples: 118
+NEG current samples: 119
+NEG current samples: 120
+NEG current samples: 121
+NEG current samples: 122
+NEG current samples: 123
+NEG current samples: 124
+NEG current samples: 125
+NEG current samples: 126
+NEG current samples: 127
+NEG current samples: 128
+NEG current samples: 129
+NEG current samples: 130
+NEG current samples: 131
+NEG current samples: 132
+NEG current samples: 133
+NEG current samples: 134
+NEG current samples: 135
+NEG current samples: 136
+NEG current samples: 137
+NEG current samples: 138
+NEG current samples: 139
+NEG current samples: 140
+NEG current samples: 141
+NEG current samples: 142
+NEG current samples: 143
+NEG current samples: 144
+NEG current samples: 145
+NEG current samples: 146
+NEG count : acceptanceRatio    146 : 0.0540741
+
+Precalculation time: 2.942
+
++----+---------+---------+
+|  N |    HR   |    FA   |
++----+---------+---------+
+
+|   1|        1|        1|
++----+---------+---------+
+
+|   2|        1|        1|
++----+---------+---------+
+
+|   3|        1|        1|
++----+---------+---------+
+
+|   4|        1|        1|
++----+---------+---------+
+
+|   5|        1|        1|
++----+---------+---------+
+
+|   6|        1|        1|
++----+---------+---------+
+
+|   7|        1| 0.856164|
++----+---------+---------+
+
+|   8|        1| 0.876712|
++----+---------+---------+
+
+|   9|        1| 0.890411|
++----+---------+---------+
+
+|  10|        1| 0.910959|
++----+---------+---------+
+
+|  11|        1| 0.910959|
++----+---------+---------+
+
+|  12|        1| 0.821918|
++----+---------+---------+
+
+|  13|        1| 0.863014|
++----+---------+---------+
+
+|  14|        1| 0.794521|
++----+---------+---------+
+
+|  15|        1| 0.808219|
++----+---------+---------+
+
+|  16|        1| 0.821918|
++----+---------+---------+
+
+|  17|        1| 0.712329|
++----+---------+---------+
+
+|  18|        1| 0.630137|
++----+---------+---------+
+
+|  19|        1| 0.671233|
++----+---------+---------+
+
+|  20|        1| 0.589041|
++----+---------+---------+
+
+|  21|        1|  0.60274|
++----+---------+---------+
+
+|  22|        1| 0.506849|
++----+---------+---------+
+
+|  23|        1| 0.547945|
++----+---------+---------+
+
+|  24|        1| 0.445205|
++----+---------+---------+
+
+END>
+
+Training until now has taken 0 days 0 hours 8 minutes 56 seconds.
+
+
+===== TRAINING 13-stage =====
+<BEGIN
+
+POS current samples: 1
+POS current samples: 2
+POS current samples: 3
+POS current samples: 4
+POS current samples: 5
+POS current samples: 6
+POS current samples: 7
+POS current samples: 8
+POS current samples: 9
+POS current samples: 10
+POS current samples: 11
+POS current samples: 12
+POS current samples: 13
+POS current samples: 14
+POS current samples: 15
+POS current samples: 16
+POS current samples: 17
+POS current samples: 18
+POS current samples: 19
+POS current samples: 20
+POS current samples: 21
+POS current samples: 22
+POS current samples: 23
+POS current samples: 24
+POS current samples: 25
+POS current samples: 26
+POS current samples: 27
+POS current samples: 28
+POS current samples: 29
+POS current samples: 30
+POS current samples: 31
+POS current samples: 32
+POS current samples: 33
+POS current samples: 34
+POS current samples: 35
+POS current samples: 36
+POS current samples: 37
+POS current samples: 38
+POS current samples: 39
+POS current samples: 40
+POS current samples: 41
+POS current samples: 42
+POS current samples: 43
+POS current samples: 44
+POS current samples: 45
+POS current samples: 46
+POS current samples: 47
+POS current samples: 48
+POS current samples: 49
+POS current samples: 50
+POS current samples: 51
+POS current samples: 52
+POS current samples: 53
+POS current samples: 54
+POS current samples: 55
+POS current samples: 56
+POS current samples: 57
+POS current samples: 58
+POS current samples: 59
+POS current samples: 60
+POS current samples: 61
+POS current samples: 62
+POS current samples: 63
+POS current samples: 64
+POS current samples: 65
+POS current samples: 66
+POS current samples: 67
+POS current samples: 68
+POS current samples: 69
+POS current samples: 70
+POS current samples: 71
+POS current samples: 72
+POS current samples: 73
+POS current samples: 74
+POS current samples: 75
+POS current samples: 76
+POS current samples: 77
+POS current samples: 78
+POS current samples: 79
+POS current samples: 80
+POS current samples: 81
+POS current samples: 82
+POS current samples: 83
+POS current samples: 84
+POS current samples: 85
+POS current samples: 86
+POS current samples: 87
+POS current samples: 88
+POS current samples: 89
+POS current samples: 90
+POS current samples: 91
+POS current samples: 92
+POS current samples: 93
+POS current samples: 94
+POS current samples: 95
+POS current samples: 96
+POS current samples: 97
+POS current samples: 98
+POS current samples: 99
+POS current samples: 100
+POS current samples: 101
+POS current samples: 102
+POS current samples: 103
+POS current samples: 104
+POS current samples: 105
+POS current samples: 106
+POS current samples: 107
+POS current samples: 108
+POS current samples: 109
+POS current samples: 110
+POS current samples: 111
+POS current samples: 112
+POS current samples: 113
+POS current samples: 114
+POS current samples: 115
+POS current samples: 116
+POS current samples: 117
+POS current samples: 118
+POS current samples: 119
+POS current samples: 120
+POS current samples: 121
+POS current samples: 122
+POS current samples: 123
+POS current samples: 124
+POS current samples: 125
+POS current samples: 126
+POS current samples: 127
+POS current samples: 128
+POS current samples: 129
+POS current samples: 130
+POS current samples: 131
+POS current samples: 132
+POS current samples: 133
+POS current samples: 134
+POS current samples: 135
+POS current samples: 136
+POS current samples: 137
+POS current samples: 138
+POS current samples: 139
+POS current samples: 140
+POS current samples: 141
+POS count : consumed   141 : 141
+
+NEG current samples: 1
+NEG current samples: 2
+NEG current samples: 3
+NEG current samples: 4
+NEG current samples: 5
+NEG current samples: 6
+NEG current samples: 7
+NEG current samples: 8
+NEG current samples: 9
+NEG current samples: 10
+NEG current samples: 11
+NEG current samples: 12
+NEG current samples: 13
+NEG current samples: 14
+NEG current samples: 15
+NEG current samples: 16
+NEG current samples: 17
+NEG current samples: 18
+NEG current samples: 19
+NEG current samples: 20
+NEG current samples: 21
+NEG current samples: 22
+NEG current samples: 23
+NEG current samples: 24
+NEG current samples: 25
+NEG current samples: 26
+NEG current samples: 27
+NEG current samples: 28
+NEG current samples: 29
+NEG current samples: 30
+NEG current samples: 31
+NEG current samples: 32
+NEG current samples: 33
+NEG current samples: 34
+NEG current samples: 35
+NEG current samples: 36
+NEG current samples: 37
+NEG current samples: 38
+NEG current samples: 39
+NEG current samples: 40
+NEG current samples: 41
+NEG current samples: 42
+NEG current samples: 43
+NEG current samples: 44
+NEG current samples: 45
+NEG current samples: 46
+NEG current samples: 47
+NEG current samples: 48
+NEG current samples: 49
+NEG current samples: 50
+NEG current samples: 51
+NEG current samples: 52
+NEG current samples: 53
+NEG current samples: 54
+NEG current samples: 55
+NEG current samples: 56
+NEG current samples: 57
+NEG current samples: 58
+NEG current samples: 59
+NEG current samples: 60
+NEG current samples: 61
+NEG current samples: 62
+NEG current samples: 63
+NEG current samples: 64
+NEG current samples: 65
+NEG current samples: 66
+NEG current samples: 67
+NEG current samples: 68
+NEG current samples: 69
+NEG current samples: 70
+NEG current samples: 71
+NEG current samples: 72
+NEG current samples: 73
+NEG current samples: 74
+NEG current samples: 75
+NEG current samples: 76
+NEG current samples: 77
+NEG current samples: 78
+NEG current samples: 79
+NEG current samples: 80
+NEG current samples: 81
+NEG current samples: 82
+NEG current samples: 83
+NEG current samples: 84
+NEG current samples: 85
+NEG current samples: 86
+NEG current samples: 87
+NEG current samples: 88
+NEG current samples: 89
+NEG current samples: 90
+NEG current samples: 91
+NEG current samples: 92
+NEG current samples: 93
+NEG current samples: 94
+NEG current samples: 95
+NEG current samples: 96
+NEG current samples: 97
+NEG current samples: 98
+NEG current samples: 99
+NEG current samples: 100
+NEG current samples: 101
+NEG current samples: 102
+NEG current samples: 103
+NEG current samples: 104
+NEG current samples: 105
+NEG current samples: 106
+NEG current samples: 107
+NEG current samples: 108
+NEG current samples: 109
+NEG current samples: 110
+NEG current samples: 111
+NEG current samples: 112
+NEG current samples: 113
+NEG current samples: 114
+NEG current samples: 115
+NEG current samples: 116
+NEG current samples: 117
+NEG current samples: 118
+NEG current samples: 119
+NEG current samples: 120
+NEG current samples: 121
+NEG current samples: 122
+NEG current samples: 123
+NEG current samples: 124
+NEG current samples: 125
+NEG current samples: 126
+NEG current samples: 127
+NEG current samples: 128
+NEG current samples: 129
+NEG current samples: 130
+NEG current samples: 131
+NEG current samples: 132
+NEG current samples: 133
+NEG current samples: 134
+NEG current samples: 135
+NEG current samples: 136
+NEG current samples: 137
+NEG current samples: 138
+NEG current samples: 139
+NEG current samples: 140
+NEG current samples: 141
+NEG current samples: 142
+NEG current samples: 143
+NEG current samples: 144
+NEG current samples: 145
+NEG current samples: 146
+NEG count : acceptanceRatio    146 : 0.0579135
+
+Precalculation time: 2.57
+
++----+---------+---------+
+|  N |    HR   |    FA   |
++----+---------+---------+
+
+|   1|        1|        1|
++----+---------+---------+
+
+|   2|        1|        1|
++----+---------+---------+
+
+|   3|        1|        1|
++----+---------+---------+
+
+|   4|        1|        1|
++----+---------+---------+
+
+|   5|        1|        1|
++----+---------+---------+
+
+|   6|        1|        1|
++----+---------+---------+
+
+|   7|        1|        1|
++----+---------+---------+
+
+|   8|        1|        1|
++----+---------+---------+
+
+|   9|        1| 0.993151|
++----+---------+---------+
+
+|  10|        1| 0.993151|
++----+---------+---------+
+
+|  11|        1| 0.993151|
++----+---------+---------+
+
+|  12|        1| 0.993151|
++----+---------+---------+
+
+|  13|        1| 0.993151|
++----+---------+---------+
+
+|  14|        1| 0.979452|
++----+---------+---------+
+
+|  15|        1| 0.958904|
++----+---------+---------+
+
+|  16|        1| 0.965753|
++----+---------+---------+
+
+|  17|        1| 0.945205|
++----+---------+---------+
+
+|  18|        1| 0.958904|
++----+---------+---------+
+
+|  19|        1| 0.883562|
++----+---------+---------+
+
+|  20|        1|  0.90411|
++----+---------+---------+
+
+|  21|        1| 0.815068|
++----+---------+---------+
+
+|  22|        1| 0.849315|
++----+---------+---------+
+
+|  23|        1| 0.760274|
++----+---------+---------+
+
+|  24|        1| 0.787671|
++----+---------+---------+
+
+|  25|        1| 0.760274|
++----+---------+---------+
+
+|  26|        1| 0.760274|
++----+---------+---------+
+
+|  27|        1| 0.684932|
++----+---------+---------+
+
+|  28|        1| 0.719178|
++----+---------+---------+
+
+|  29|        1| 0.664384|
++----+---------+---------+
+
+|  30|        1| 0.671233|
++----+---------+---------+
+
+|  31|        1| 0.623288|
++----+---------+---------+
+
+|  32|        1| 0.643836|
++----+---------+---------+
+
+|  33|        1|  0.60274|
++----+---------+---------+
+
+|  34|        1|  0.60274|
++----+---------+---------+
+
+|  35|        1| 0.582192|
++----+---------+---------+
+
+|  36|        1| 0.589041|
++----+---------+---------+
+
+|  37|        1| 0.582192|
++----+---------+---------+
+
+|  38|        1| 0.582192|
++----+---------+---------+
+
+|  39|        1| 0.575342|
++----+---------+---------+
+
+|  40|        1| 0.575342|
++----+---------+---------+
+
+|  41|        1| 0.575342|
++----+---------+---------+
+
+|  42|        1| 0.575342|
++----+---------+---------+
+
+|  43|        1| 0.575342|
++----+---------+---------+
+
+|  44|        1| 0.575342|
++----+---------+---------+
+
+|  45|        1| 0.575342|
++----+---------+---------+
+
+|  46|        1| 0.575342|
++----+---------+---------+
+
+|  47|        1| 0.575342|
++----+---------+---------+
+
+|  48|        1| 0.575342|
++----+---------+---------+
+
+|  49|        1| 0.575342|
++----+---------+---------+
+
+|  50|        1| 0.575342|
++----+---------+---------+
+
+|  51|        1| 0.575342|
++----+---------+---------+
+
+|  52|        1| 0.575342|
++----+---------+---------+
+
+|  53|        1| 0.575342|
++----+---------+---------+
+
+|  54|        1| 0.575342|
++----+---------+---------+
+
+|  55|        1| 0.575342|
++----+---------+---------+
+
+|  56|        1| 0.575342|
++----+---------+---------+
+
+|  57|        1| 0.575342|
++----+---------+---------+
+
+|  58|        1| 0.575342|
++----+---------+---------+
+
+|  59|        1| 0.575342|
++----+---------+---------+
+
+|  60|        1| 0.575342|
++----+---------+---------+
+
+|  61|        1| 0.575342|
++----+---------+---------+
+
+|  62|        1| 0.575342|
++----+---------+---------+
+
+|  63|        1| 0.575342|
++----+---------+---------+
+
+|  64|        1| 0.575342|
++----+---------+---------+
+
+|  65|        1| 0.575342|
++----+---------+---------+
+
+|  66|        1| 0.575342|
++----+---------+---------+
+
+|  67|        1| 0.575342|
++----+---------+---------+
+
+|  68|        1| 0.575342|
++----+---------+---------+
+
+|  69|        1| 0.575342|
++----+---------+---------+
+
+|  70|        1| 0.575342|
++----+---------+---------+
+
+|  71|        1| 0.575342|
++----+---------+---------+
+
+|  72|        1| 0.575342|
++----+---------+---------+
+
+|  73|        1| 0.575342|
++----+---------+---------+
+
+|  74|        1| 0.575342|
++----+---------+---------+
+
+|  75|        1| 0.575342|
++----+---------+---------+
+
+|  76|        1| 0.575342|
++----+---------+---------+
+
+|  77|        1| 0.575342|
++----+---------+---------+
+
+|  78|        1| 0.575342|
++----+---------+---------+
+
+|  79|        1| 0.575342|
++----+---------+---------+
+
+|  80|        1| 0.575342|
++----+---------+---------+
+
+|  81|        1| 0.575342|
++----+---------+---------+
+
+|  82|        1| 0.575342|
++----+---------+---------+
+
+|  83|        1| 0.575342|
++----+---------+---------+
+
+|  84|        1| 0.575342|
++----+---------+---------+
+
+|  85|        1| 0.575342|
++----+---------+---------+
+
+|  86|        1| 0.575342|
++----+---------+---------+
+
+|  87|        1| 0.575342|
++----+---------+---------+
+
+|  88|        1| 0.575342|
++----+---------+---------+
+
+|  89|        1| 0.575342|
++----+---------+---------+
+
+|  90|        1| 0.575342|
++----+---------+---------+
+
+|  91|        1| 0.575342|
++----+---------+---------+
+
+|  92|        1| 0.575342|
++----+---------+---------+
+
+|  93|        1| 0.575342|
++----+---------+---------+
+
+|  94|        1| 0.575342|
++----+---------+---------+
+
+|  95|        1| 0.575342|
++----+---------+---------+
+
+|  96|        1| 0.575342|
++----+---------+---------+
+
+|  97|        1| 0.575342|
++----+---------+---------+
+
+|  98|        1| 0.575342|
++----+---------+---------+
+
+|  99|        1| 0.575342|
++----+---------+---------+
+
+| 100|        1| 0.575342|
++----+---------+---------+
+
+END>
+
+Training until now has taken 0 days 0 hours 11 minutes 25 seconds.
+
+
+===== TRAINING 14-stage =====
+<BEGIN
+
+POS current samples: 1
+POS current samples: 2
+POS current samples: 3
+POS current samples: 4
+POS current samples: 5
+POS current samples: 6
+POS current samples: 7
+POS current samples: 8
+POS current samples: 9
+POS current samples: 10
+POS current samples: 11
+POS current samples: 12
+POS current samples: 13
+POS current samples: 14
+POS current samples: 15
+POS current samples: 16
+POS current samples: 17
+POS current samples: 18
+POS current samples: 19
+POS current samples: 20
+POS current samples: 21
+POS current samples: 22
+POS current samples: 23
+POS current samples: 24
+POS current samples: 25
+POS current samples: 26
+POS current samples: 27
+POS current samples: 28
+POS current samples: 29
+POS current samples: 30
+POS current samples: 31
+POS current samples: 32
+POS current samples: 33
+POS current samples: 34
+POS current samples: 35
+POS current samples: 36
+POS current samples: 37
+POS current samples: 38
+POS current samples: 39
+POS current samples: 40
+POS current samples: 41
+POS current samples: 42
+POS current samples: 43
+POS current samples: 44
+POS current samples: 45
+POS current samples: 46
+POS current samples: 47
+POS current samples: 48
+POS current samples: 49
+POS current samples: 50
+POS current samples: 51
+POS current samples: 52
+POS current samples: 53
+POS current samples: 54
+POS current samples: 55
+POS current samples: 56
+POS current samples: 57
+POS current samples: 58
+POS current samples: 59
+POS current samples: 60
+POS current samples: 61
+POS current samples: 62
+POS current samples: 63
+POS current samples: 64
+POS current samples: 65
+POS current samples: 66
+POS current samples: 67
+POS current samples: 68
+POS current samples: 69
+POS current samples: 70
+POS current samples: 71
+POS current samples: 72
+POS current samples: 73
+POS current samples: 74
+POS current samples: 75
+POS current samples: 76
+POS current samples: 77
+POS current samples: 78
+POS current samples: 79
+POS current samples: 80
+POS current samples: 81
+POS current samples: 82
+POS current samples: 83
+POS current samples: 84
+POS current samples: 85
+POS current samples: 86
+POS current samples: 87
+POS current samples: 88
+POS current samples: 89
+POS current samples: 90
+POS current samples: 91
+POS current samples: 92
+POS current samples: 93
+POS current samples: 94
+POS current samples: 95
+POS current samples: 96
+POS current samples: 97
+POS current samples: 98
+POS current samples: 99
+POS current samples: 100
+POS current samples: 101
+POS current samples: 102
+POS current samples: 103
+POS current samples: 104
+POS current samples: 105
+POS current samples: 106
+POS current samples: 107
+POS current samples: 108
+POS current samples: 109
+POS current samples: 110
+POS current samples: 111
+POS current samples: 112
+POS current samples: 113
+POS current samples: 114
+POS current samples: 115
+POS current samples: 116
+POS current samples: 117
+POS current samples: 118
+POS current samples: 119
+POS current samples: 120
+POS current samples: 121
+POS current samples: 122
+POS current samples: 123
+POS current samples: 124
+POS current samples: 125
+POS current samples: 126
+POS current samples: 127
+POS current samples: 128
+POS current samples: 129
+POS current samples: 130
+POS current samples: 131
+POS current samples: 132
+POS current samples: 133
+POS current samples: 134
+POS current samples: 135
+POS current samples: 136
+POS current samples: 137
+POS current samples: 138
+POS current samples: 139
+POS current samples: 140
+POS current samples: 141
+POS count : consumed   141 : 141
+
+NEG current samples: 1
+NEG current samples: 2
+NEG current samples: 3
+NEG current samples: 4
+NEG current samples: 5
+NEG current samples: 6
+NEG current samples: 7
+NEG current samples: 8
+NEG current samples: 9
+NEG current samples: 10
+NEG current samples: 11
+NEG current samples: 12
+NEG current samples: 13
+NEG current samples: 14
+NEG current samples: 15
+NEG current samples: 16
+NEG current samples: 17
+NEG current samples: 18
+NEG current samples: 19
+NEG current samples: 20
+NEG current samples: 21
+NEG current samples: 22
+NEG current samples: 23
+NEG current samples: 24
+NEG current samples: 25
+NEG current samples: 26
+NEG current samples: 27
+NEG current samples: 28
+NEG current samples: 29
+NEG current samples: 30
+NEG current samples: 31
+NEG current samples: 32
+NEG current samples: 33
+NEG current samples: 34
+NEG current samples: 35
+NEG current samples: 36
+NEG current samples: 37
+NEG current samples: 38
+NEG current samples: 39
+NEG current samples: 40
+NEG current samples: 41
+NEG current samples: 42
+NEG current samples: 43
+NEG current samples: 44
+NEG current samples: 45
+NEG current samples: 46
+NEG current samples: 47
+NEG current samples: 48
+NEG current samples: 49
+NEG current samples: 50
+NEG current samples: 51
+NEG current samples: 52
+NEG current samples: 53
+NEG current samples: 54
+NEG current samples: 55
+NEG current samples: 56
+NEG current samples: 57
+NEG current samples: 58
+NEG current samples: 59
+NEG current samples: 60
+NEG current samples: 61
+NEG current samples: 62
+NEG current samples: 63
+NEG current samples: 64
+NEG current samples: 65
+NEG current samples: 66
+NEG current samples: 67
+NEG current samples: 68
+NEG current samples: 69
+NEG current samples: 70
+NEG current samples: 71
+NEG current samples: 72
+NEG current samples: 73
+NEG current samples: 74
+NEG current samples: 75
+NEG current samples: 76
+NEG current samples: 77
+NEG current samples: 78
+NEG current samples: 79
+NEG current samples: 80
+NEG current samples: 81
+NEG current samples: 82
+NEG current samples: 83
+NEG current samples: 84
+NEG current samples: 85
+NEG current samples: 86
+NEG current samples: 87
+NEG current samples: 88
+NEG current samples: 89
+NEG current samples: 90
+NEG current samples: 91
+NEG current samples: 92
+NEG current samples: 93
+NEG current samples: 94
+NEG current samples: 95
+NEG current samples: 96
+NEG current samples: 97
+NEG current samples: 98
+NEG current samples: 99
+NEG current samples: 100
+NEG current samples: 101
+NEG current samples: 102
+NEG current samples: 103
+NEG current samples: 104
+NEG current samples: 105
+NEG current samples: 106
+NEG current samples: 107
+NEG current samples: 108
+NEG current samples: 109
+NEG current samples: 110
+NEG current samples: 111
+NEG current samples: 112
+NEG current samples: 113
+NEG current samples: 114
+NEG current samples: 115
+NEG current samples: 116
+NEG current samples: 117
+NEG current samples: 118
+NEG current samples: 119
+NEG current samples: 120
+NEG current samples: 121
+NEG current samples: 122
+NEG current samples: 123
+NEG current samples: 124
+NEG current samples: 125
+NEG current samples: 126
+NEG current samples: 127
+NEG current samples: 128
+NEG current samples: 129
+NEG current samples: 130
+NEG current samples: 131
+NEG current samples: 132
+NEG current samples: 133
+NEG current samples: 134
+NEG current samples: 135
+NEG current samples: 136
+NEG current samples: 137
+NEG current samples: 138
+NEG current samples: 139
+NEG current samples: 140
+NEG current samples: 141
+NEG current samples: 142
+NEG current samples: 143
+NEG current samples: 144
+NEG current samples: 145
+NEG current samples: 146
+NEG count : acceptanceRatio    146 : 0.0981843
+
+Precalculation time: 2.079
+
++----+---------+---------+
+|  N |    HR   |    FA   |
++----+---------+---------+
+
+|   1|        1|        1|
++----+---------+---------+
+
+|   2|        1|        1|
++----+---------+---------+
+
+|   3|        1|        1|
++----+---------+---------+
+
+|   4|        1|        1|
++----+---------+---------+
+
+|   5|        1|        1|
++----+---------+---------+
+
+|   6|        1|        1|
++----+---------+---------+
+
+|   7|        1|        1|
++----+---------+---------+
+
+|   8|        1|        1|
++----+---------+---------+
+
+|   9|        1|        1|
++----+---------+---------+
+
+|  10|        1|        1|
++----+---------+---------+
+
+|  11|        1| 0.993151|
++----+---------+---------+
+
+|  12|        1| 0.993151|
++----+---------+---------+
+
+|  13|        1| 0.993151|
++----+---------+---------+
+
+|  14|        1| 0.952055|
++----+---------+---------+
+
+|  15|        1| 0.958904|
++----+---------+---------+
+
+|  16|        1|  0.90411|
++----+---------+---------+
+
+|  17|        1| 0.910959|
++----+---------+---------+
+
+|  18|        1| 0.863014|
++----+---------+---------+
+
+|  19|        1| 0.876712|
++----+---------+---------+
+
+|  20|        1| 0.821918|
++----+---------+---------+
+
+|  21|        1| 0.828767|
++----+---------+---------+
+
+|  22|        1| 0.828767|
++----+---------+---------+
+
+|  23|        1| 0.808219|
++----+---------+---------+
+
+|  24|        1| 0.808219|
++----+---------+---------+
+
+|  25|        1| 0.808219|
++----+---------+---------+
+
+|  26|        1| 0.808219|
++----+---------+---------+
+
+|  27|        1| 0.808219|
++----+---------+---------+
+
+|  28|        1| 0.808219|
++----+---------+---------+
+
+|  29|        1| 0.808219|
++----+---------+---------+
+
+|  30|        1| 0.808219|
++----+---------+---------+
+
+|  31|        1| 0.808219|
++----+---------+---------+
+
+|  32|        1| 0.808219|
++----+---------+---------+
+
+|  33|        1| 0.808219|
++----+---------+---------+
+
+|  34|        1| 0.808219|
++----+---------+---------+
+
+|  35|        1| 0.808219|
++----+---------+---------+
+
+|  36|        1| 0.808219|
++----+---------+---------+
+
+|  37|        1| 0.808219|
++----+---------+---------+
+
+|  38|        1| 0.808219|
++----+---------+---------+
+
+|  39|        1| 0.808219|
++----+---------+---------+
+
+|  40|        1| 0.808219|
++----+---------+---------+
+
+|  41|        1| 0.808219|
++----+---------+---------+
+
+|  42|        1| 0.808219|
++----+---------+---------+
+
+|  43|        1| 0.808219|
++----+---------+---------+
+
+|  44|        1| 0.808219|
++----+---------+---------+
+
+|  45|        1| 0.808219|
++----+---------+---------+
+
+|  46|        1| 0.808219|
++----+---------+---------+
+
+|  47|        1| 0.808219|
++----+---------+---------+
+
+|  48|        1| 0.808219|
++----+---------+---------+
+
+|  49|        1| 0.808219|
++----+---------+---------+
+
+|  50|        1| 0.808219|
++----+---------+---------+
+
+|  51|        1| 0.808219|
++----+---------+---------+
+
+|  52|        1| 0.808219|
++----+---------+---------+
+
+|  53|        1| 0.808219|
++----+---------+---------+
+
+|  54|        1| 0.808219|
++----+---------+---------+
+
+|  55|        1| 0.808219|
++----+---------+---------+
+
+|  56|        1| 0.808219|
++----+---------+---------+
+
+|  57|        1| 0.808219|
++----+---------+---------+
+
+|  58|        1| 0.808219|
++----+---------+---------+
+
+|  59|        1| 0.808219|
++----+---------+---------+
+
+|  60|        1| 0.808219|
++----+---------+---------+
+
+|  61|        1| 0.808219|
++----+---------+---------+
+
+|  62|        1| 0.808219|
++----+---------+---------+
+
+|  63|        1| 0.808219|
++----+---------+---------+
+
+|  64|        1| 0.808219|
++----+---------+---------+
+
+|  65|        1| 0.808219|
++----+---------+---------+
+
+|  66|        1| 0.808219|
++----+---------+---------+
+
+|  67|        1| 0.808219|
++----+---------+---------+
+
+|  68|        1| 0.808219|
++----+---------+---------+
+
+|  69|        1| 0.808219|
++----+---------+---------+
+
+|  70|        1| 0.808219|
++----+---------+---------+
+
+|  71|        1| 0.808219|
++----+---------+---------+
+
+|  72|        1| 0.808219|
++----+---------+---------+
+
+|  73|        1| 0.808219|
++----+---------+---------+
+
+|  74|        1| 0.808219|
++----+---------+---------+
+
+|  75|        1| 0.808219|
++----+---------+---------+
+
+|  76|        1| 0.808219|
++----+---------+---------+
+
+|  77|        1| 0.808219|
++----+---------+---------+
+
+|  78|        1| 0.808219|
++----+---------+---------+
+
+|  79|        1| 0.808219|
++----+---------+---------+
+
+|  80|        1| 0.808219|
++----+---------+---------+
+
+|  81|        1| 0.808219|
++----+---------+---------+
+
+|  82|        1| 0.808219|
++----+---------+---------+
+
+|  83|        1| 0.808219|
++----+---------+---------+
+
+|  84|        1| 0.808219|
++----+---------+---------+
+
+|  85|        1| 0.808219|
++----+---------+---------+
+
+|  86|        1| 0.808219|
++----+---------+---------+
+
+|  87|        1| 0.808219|
++----+---------+---------+
+
+|  88|        1| 0.808219|
++----+---------+---------+
+
+|  89|        1| 0.808219|
++----+---------+---------+
+
+|  90|        1| 0.808219|
++----+---------+---------+
+
+|  91|        1| 0.808219|
++----+---------+---------+
+
+|  92|        1| 0.808219|
++----+---------+---------+
+
+|  93|        1| 0.808219|
++----+---------+---------+
+
+|  94|        1| 0.808219|
++----+---------+---------+
+
+|  95|        1| 0.808219|
++----+---------+---------+
+
+|  96|        1| 0.808219|
++----+---------+---------+
+
+|  97|        1| 0.808219|
++----+---------+---------+
+
+|  98|        1| 0.808219|
++----+---------+---------+
+
+|  99|        1| 0.808219|
++----+---------+---------+
+
+| 100|        1| 0.808219|
++----+---------+---------+
+
+END>
+
+Training until now has taken 0 days 0 hours 13 minutes 39 seconds.
